@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "frustratedfly")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/frustratedfly.pretty")(options "")(descr ""))
+)

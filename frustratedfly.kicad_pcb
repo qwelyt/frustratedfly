@@ -180,7 +180,7 @@
 	(net 57 "Net-(RZ1-Pad27)")
 	(net 58 "unconnected-(RZ1-PadGND)")
 	(net 59 "Net-(RZ1-Pad15)")
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "01c38943-04ca-4326-a3e3-480ab01554c1")
 		(at 120.422712 133.593889 -30)
@@ -198,7 +198,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000001 8.999995 330)
+			(at 0 9 330)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -210,7 +210,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 330)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -241,7 +241,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40a1dd65-65b2-4ce1-9012-8294b32be366")
+			(uuid "f3288a84-0d5a-4508-9ffa-cfeadf7cffad")
 			(effects
 				(font
 					(size 1 1)
@@ -255,8 +255,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800001 -3.499999) (xy 3.799999 -1.650002) (xy 3.3 -1.150001) (xy -2.199999 -1.15) (xy -2.2 -3.899999)
-				(xy 2.199999 -3.899999) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.9) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -264,10 +263,10 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "8dfbb233-0f4b-4273-afdb-93c081a329ef")
+			(uuid "01f0b541-bc5a-43b9-bcb2-063e258f94e0")
 		)
 		(fp_circle
-			(center -5.8 2.749999)
+			(center -5.8 2.75)
 			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
@@ -275,22 +274,22 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "da092e85-f01a-4ae3-9c1b-8113bd7b6699")
+			(uuid "64936626-384a-463f-bbb8-9945030b5a23")
 		)
 		(fp_circle
-			(center 5.8 -2.749999)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "ffda5428-9ce9-406a-a1bc-8ed5f2e5a1bf")
+			(uuid "e9a5b337-b0bc-46a4-941d-3754ef50881a")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999998) (xy 7.999998 8.000001) (xy 8.000001 -7.999998) (xy -7.999998 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -298,11 +297,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f2794bb6-1567-4362-9d1f-0a189e919bbb")
+			(uuid "01431861-9346-498a-b74d-8e00ebc00dbe")
 		)
 		(fp_poly
 			(pts
-				(xy -6.750001 -6.5) (xy 6.750002 -6.500002) (xy 6.750001 6.5) (xy -6.750002 6.500002)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -310,10 +309,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c74cbebd-d9d2-44b2-bde5-5b1d9327635b")
+			(uuid "7f77eee1-7b65-479b-837c-471dc168dd60")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599999 330)
+			(at 0.100001 -5.6 330)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1c71a749-9831-4666-972a-0ed0835f69cb")
@@ -325,7 +324,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 330)
+			(at -2.500001 2.65 330)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "Net-(D14-A)")
@@ -335,7 +334,7 @@
 			(uuid "30d7bf4c-7c7a-4fe4-8435-7e61e30f6332")
 		)
 		(pad "2" smd rect
-			(at 2.499999 2.650001 330)
+			(at 2.5 2.649999 330)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 59 "Net-(RZ1-Pad15)")
@@ -345,7 +344,7 @@
 			(uuid "fc898307-eeca-499f-b0d4-6ba23cefb451")
 		)
 		(pad "3" smd rect
-			(at -6.35 -5.999998 330)
+			(at -6.35 -6 330)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
@@ -356,21 +355,21 @@
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "c14b982f-6004-4a12-a215-d92e7588efb6")
+			(uuid "1f27d597-1b02-4d7b-8b77-b0b70ec65e3d")
 		)
 		(pad "3" smd rect
 			(at 6.35 -5.999999 330)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "d438eb7c-a16f-4287-8add-2e1c0cea5dcf")
+			(uuid "1f27d597-1b02-4d7b-8b77-b0b70ec65e3d")
 		)
 		(pad "3" smd rect
-			(at 6.35 5.999998 330)
+			(at 6.35 6 330)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "7ef18bf4-848d-43c7-bfb8-bab206e2d72d")
+			(uuid "1f27d597-1b02-4d7b-8b77-b0b70ec65e3d")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -1043,7 +1042,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "06ea90d7-ab23-418f-85a3-23090a6ddb68")
 		(at 66.451443 91.055432 -20)
@@ -1061,7 +1060,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -1073,7 +1072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1104,7 +1103,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0a93f95-b37d-4e91-bbca-280a2ec2d58d")
+			(uuid "6d9a6e43-0ef1-412c-b64d-b673debed1cf")
 			(effects
 				(font
 					(size 1 1)
@@ -1118,8 +1117,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -1127,33 +1126,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "bcd0dc47-6b10-4bc1-b774-2d3ddfe10a1e")
+			(uuid "d7104e72-8650-4b48-9d35-4f90e7f3c869")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "271d47ff-960e-4471-8e82-1929e2f8000e")
+			(uuid "6b1261ce-a618-4428-86d0-7c6048cf8a6f")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "e88c7173-69b1-4a36-b720-eaa85f8003e0")
+			(uuid "c137948f-d08d-4c8e-9d5c-85b88db3a380")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -1161,11 +1160,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "01953876-d614-41ed-8a76-655c393df9ff")
+			(uuid "ce1efb4f-8077-485e-8cbb-564807c7451e")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -1173,10 +1172,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "9fc46369-00ca-4710-9d8f-e5f9646bbb0a")
+			(uuid "89be76e1-dfd3-4ec1-8b50-1b390d2d2820")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a69c62ab-e7fb-4748-8423-aa2e70818fe2")
@@ -1188,7 +1187,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "Net-(D3-A)")
@@ -1198,7 +1197,7 @@
 			(uuid "09a7726d-8197-49b8-8e00-106a2bc241d0")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 53 "Net-(RZ1-Pad28)")
@@ -1208,32 +1207,32 @@
 			(uuid "49a45d99-44f9-4607-862a-8d61ba353810")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "2b7de3f0-2570-40b3-ac4f-d8f1dca3b9b1")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "b0811f23-b703-4c0d-8430-5ec264fb5d4f")
+			(uuid "2b7de3f0-2570-40b3-ac4f-d8f1dca3b9b1")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "7cdcdc64-676d-4128-b997-eb4a375e25e0")
+			(uuid "2b7de3f0-2570-40b3-ac4f-d8f1dca3b9b1")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "61050da1-0d99-400f-8096-6e5896c054f3")
+			(uuid "2b7de3f0-2570-40b3-ac4f-d8f1dca3b9b1")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -1584,7 +1583,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "0a64e269-6ba0-4efa-afa2-ae4f0f5b1966")
 		(at 193.07242 112.95164 20)
@@ -1602,7 +1601,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -1614,7 +1613,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1645,7 +1644,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19d00777-7a97-44b9-8734-e7305af1058d")
+			(uuid "16315df5-153a-40ee-ad6d-06c92ca456af")
 			(effects
 				(font
 					(size 1 1)
@@ -1659,8 +1658,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -1668,33 +1666,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "2f0a4c62-a959-4366-bc58-8f60b289ae6f")
+			(uuid "2d38d535-47f6-40fc-8ca5-3f9dda70f5e0")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "ffca611f-991d-452a-8625-5e6965fc532c")
+			(uuid "b0fd1e69-8d3f-4226-b1ae-5c4879d77439")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "9172a305-2468-4f27-9cfa-0dc74fed36ba")
+			(uuid "5493547b-f12a-40ad-a6f5-2b72d4b9e799")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -1702,11 +1700,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a39120aa-4c67-4edb-9700-bd568375e92a")
+			(uuid "3b53187a-e324-4c31-9b6b-954370357caf")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -1714,10 +1712,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "0485a6d0-c9a5-45d6-80c5-fd9026176c3d")
+			(uuid "e3c79bf2-e5fc-4abb-9aea-65e58cf96f34")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "bbe4a837-e259-4d9d-8cbb-a27307fdf5c7")
@@ -1729,7 +1727,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 31 "Net-(D21-A)")
@@ -1756,25 +1754,25 @@
 			(uuid "70f27294-67f8-42d5-a3a2-3b58b602dabc")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "252dee3e-da92-4a97-bb70-f9090c17542c")
+			(uuid "70f27294-67f8-42d5-a3a2-3b58b602dabc")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "ee355536-b885-4d22-8716-224ac7b10742")
+			(uuid "70f27294-67f8-42d5-a3a2-3b58b602dabc")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "cfadb3e0-8699-45de-91ca-49fedc4ca191")
+			(uuid "70f27294-67f8-42d5-a3a2-3b58b602dabc")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -3091,7 +3089,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "110e8a9c-93b0-4eb5-881f-908bef67359a")
 		(at 82.878092 92.777531 -20)
@@ -3109,7 +3107,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -3121,7 +3119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3152,7 +3150,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7c3c390-e9c6-41fe-8977-1eea51b41f01")
+			(uuid "fb31fd6c-3c1a-4a13-9fd7-989fa23324b9")
 			(effects
 				(font
 					(size 1 1)
@@ -3166,8 +3164,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -3175,33 +3173,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "71c0f19f-cd1d-4422-a76b-d912cb409488")
+			(uuid "9d6376a8-f06e-4da1-8413-5f1aa16c4347")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "ae0afcc3-6cdb-41ba-8265-d6fed7bfddbc")
+			(uuid "ee487492-ff4e-4fcd-b5b1-7d78c2eb8f79")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "85bedee8-cc35-4194-a56b-a0bc5387875c")
+			(uuid "c46444f4-2270-40ae-9581-8babee78c055")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -3209,11 +3207,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "0b1aa05f-d667-4ccb-aabf-716a62b414f1")
+			(uuid "90b37335-5794-4dd5-adf9-58abeeecbdeb")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -3221,10 +3219,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "dca9633f-3f56-4e92-bccd-23107977bdac")
+			(uuid "1a644849-5782-41ee-aca6-cc447ec6e18d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "74b80445-91fa-412f-900f-155ddc2800d7")
@@ -3236,7 +3234,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "Net-(D6-A)")
@@ -3246,7 +3244,7 @@
 			(uuid "adafc3dc-7369-4870-9746-ee021f6136a3")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 57 "Net-(RZ1-Pad27)")
@@ -3256,32 +3254,32 @@
 			(uuid "2d1f002b-da67-4811-bc48-cb98d1e5949e")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "cc2e1920-7797-4b6c-b089-57f1031bc74d")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "a5752903-20f6-4d84-8c7a-0b3517a107f8")
+			(uuid "cc2e1920-7797-4b6c-b089-57f1031bc74d")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "8f61fdbd-452e-4a72-af96-45cf3b5bdaf5")
+			(uuid "cc2e1920-7797-4b6c-b089-57f1031bc74d")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "83c1a5c6-110f-4921-9937-84229c5ca84d")
+			(uuid "cc2e1920-7797-4b6c-b089-57f1031bc74d")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -3632,7 +3630,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "1d21c6f9-b83b-4071-b25b-2f7fb4bb1707")
 		(at 134.611268 143.537378 -40)
@@ -3650,7 +3648,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000001 8.999998 320)
+			(at 0 9 320)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -3662,7 +3660,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 320)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3693,7 +3691,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14f1a0a2-0978-4b41-b3b7-7fb910cae2be")
+			(uuid "94d9464f-4593-4fd7-95c5-e2c3ea6823e2")
 			(effects
 				(font
 					(size 1 1)
@@ -3707,8 +3705,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.799998 -1.649998) (xy 3.299999 -1.150001) (xy -2.2 -1.15) (xy -2.2 -3.900003)
-				(xy 2.199999 -3.899999) (xy 2.200001 -3.499998)
+				(xy 3.8 -3.500001) (xy 3.8 -1.649999) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.199999 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -3716,33 +3714,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "d78816f0-99d4-4f7e-95f0-3748d857e9a0")
+			(uuid "32b3f2a0-5f2e-4396-9097-032aaac22a30")
 		)
 		(fp_circle
-			(center -5.800003 2.749998)
-			(end -5.299999 2.750001)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "f0147008-bcf6-4f07-9ee4-e86547d708ed")
+			(uuid "1be7b47d-be4f-4e23-84df-ba5feed2954b")
 		)
 		(fp_circle
-			(center 5.800003 -2.749998)
-			(end 6.400001 -2.75)
+			(center 5.8 -2.75)
+			(end 6.399999 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "6351f6ca-18d1-4d51-991f-3a3abd65b1a4")
+			(uuid "114b0f59-ea2f-4842-9506-39b777f67208")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999997 7.999999) (xy 7.999999 7.999997) (xy 7.999997 -7.999999) (xy -7.999999 -7.999997)
+				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
 			)
 			(stroke
 				(width 0.1)
@@ -3750,11 +3748,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f557d253-05b9-44fe-bce1-c53ed1c97bf0")
+			(uuid "00e26aea-9342-4f19-9630-3c00d2456687")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749998 -6.500002) (xy 6.75 6.5) (xy -6.749998 6.500002)
+				(xy -6.75 -6.5) (xy 6.749999 -6.5) (xy 6.75 6.5) (xy -6.749999 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -3762,10 +3760,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "6e79c2d9-11a9-459b-845d-3cd6a8963548")
+			(uuid "90411d85-a778-4d15-a5d2-a1d7fed0f4ad")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.099997 -5.600003 320)
+			(at 0.1 -5.6 320)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "03a9ea39-604a-4444-85dd-f87516407a25")
@@ -3777,7 +3775,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499999 2.650001 320)
+			(at -2.5 2.65 320)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(D18-A)")
@@ -3787,7 +3785,7 @@
 			(uuid "55626771-a731-4c70-b3db-72ce728684be")
 		)
 		(pad "2" smd rect
-			(at 2.500001 2.649999 320)
+			(at 2.5 2.65 320)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 56 "Net-(RZ1-Pad14)")
@@ -3804,25 +3802,25 @@
 			(uuid "8282c755-1082-4aae-8d45-062735c65130")
 		)
 		(pad "3" smd rect
-			(at -6.35 6.000001 320)
+			(at -6.35 6 320)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "d499d85b-2c42-451f-96be-8407990a7876")
+			(uuid "8282c755-1082-4aae-8d45-062735c65130")
 		)
 		(pad "3" smd rect
-			(at 6.35 -6.000001 320)
+			(at 6.35 -6 320)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "a7383ecb-ffcf-4383-8427-be9c3e3d6eb0")
+			(uuid "8282c755-1082-4aae-8d45-062735c65130")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 320)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "379cbbab-81ce-4675-ad05-6fedd3fad5e9")
+			(uuid "8282c755-1082-4aae-8d45-062735c65130")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -4495,7 +4493,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "2aaac576-6c54-42f4-81a6-148ed0211036")
 		(at 231.38424 77.723724 20)
@@ -4513,7 +4511,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000001 9.000006 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -4525,7 +4523,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4556,7 +4554,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "827fd8ef-dfd3-4b9f-937d-e4a6e37a218d")
+			(uuid "2ddeae83-ab8b-44cf-866d-25733b69f7c1")
 			(effects
 				(font
 					(size 1 1)
@@ -4570,8 +4568,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -4579,33 +4576,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "176ed1ae-116f-4f88-a098-309427258aed")
+			(uuid "51be61f5-77d3-450a-9daf-9264550d53ca")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "42215b22-9209-47c8-bd37-b9aa295d1ba3")
+			(uuid "20ba9db9-a203-4c13-89c0-5343b63b293f")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "0e28e5d6-f989-4da3-8b5b-af65b1479db9")
+			(uuid "eaf16dc7-c371-4251-ac50-fc1a62b2772c")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -4613,11 +4610,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "ecadf906-00a1-4f87-a3a3-6af1f17f9227")
+			(uuid "9fd20260-edea-45f5-8e24-1b8d5fabff2b")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -4625,10 +4622,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "fb6cbc49-c9cf-4a52-af80-2345062137d3")
+			(uuid "17be6390-19dd-4782-9230-9b0f32e05964")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "96e25fb9-2469-4761-a5a6-b5b7600287a6")
@@ -4640,7 +4637,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 42 "Net-(D32-A)")
@@ -4667,25 +4664,25 @@
 			(uuid "d8371bb6-7c1c-4ca4-8a30-277c0bfce953")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "9e9d28d1-f41d-4c75-9ab1-0447aa7bdba6")
+			(uuid "d8371bb6-7c1c-4ca4-8a30-277c0bfce953")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "39b455cc-c147-4c97-abb1-a9d7427cd910")
+			(uuid "d8371bb6-7c1c-4ca4-8a30-277c0bfce953")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "85587bdb-e371-4c84-9793-d2575646e5bb")
+			(uuid "d8371bb6-7c1c-4ca4-8a30-277c0bfce953")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -5680,7 +5677,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "2fff0c69-b70e-4a2b-9e6e-3df9eebe3af5")
 		(at 71.923762 76.020344 -20)
@@ -5698,7 +5695,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -5710,7 +5707,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5741,7 +5738,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef7e0743-e0c9-47db-8008-e404d21fa24a")
+			(uuid "51bac887-8b75-4434-bf2e-ce49a5885814")
 			(effects
 				(font
 					(size 1 1)
@@ -5755,8 +5752,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -5764,33 +5761,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "58b1d2e7-c830-4926-a698-fdb8522bb251")
+			(uuid "5397ff6d-3a96-485a-8b58-a03ecc15503f")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "372580a7-9f15-4f3e-a6f2-fed480479ed9")
+			(uuid "4a612c5f-9cb8-4850-85b2-c50cea887fab")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "eb23f58d-e5c5-47c0-ae58-0ed2d81856ea")
+			(uuid "3cbb5d51-df49-426c-a69c-e14935b5f404")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -5798,11 +5795,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "8f3da94c-dfbf-42f9-addc-697ad4f7036f")
+			(uuid "582b0a03-afd3-48e6-82f7-ce2d0b7165c5")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -5810,10 +5807,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "bc6eff97-6d58-403e-b8e9-e692a23c5cbf")
+			(uuid "c158985a-3550-4778-bfe7-2608c8f0cc05")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6a044f5c-de39-437f-80be-ee575d5d63c2")
@@ -5825,7 +5822,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "Net-(D2-A)")
@@ -5835,7 +5832,7 @@
 			(uuid "a3863b39-edb9-45e8-810f-f206c5e80914")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 53 "Net-(RZ1-Pad28)")
@@ -5845,32 +5842,32 @@
 			(uuid "8e126df0-11ca-4174-b1ca-ded68d25e0e5")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "2620d314-b020-4631-b7a2-fc3065abe085")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "8e1f7e86-0de3-486e-a808-1686c130ba69")
+			(uuid "2620d314-b020-4631-b7a2-fc3065abe085")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "23881100-7294-4529-ab57-9357c8ccac9a")
+			(uuid "2620d314-b020-4631-b7a2-fc3065abe085")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "1862536f-5bc1-47f9-8323-9ef147df0a35")
+			(uuid "2620d314-b020-4631-b7a2-fc3065abe085")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -5899,7 +5896,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "3e601c38-5d81-4470-97ba-6f2868ac44f1")
 		(at 220.455117 94.477056 20)
@@ -5917,7 +5914,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -5929,7 +5926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5960,7 +5957,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eae4b29b-965f-4dea-9244-6aac3cddb9c1")
+			(uuid "63958754-d830-4a45-9bed-46a2a43e43ca")
 			(effects
 				(font
 					(size 1 1)
@@ -5974,8 +5971,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -5983,33 +5979,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "d1846351-d82c-44ec-9566-9eb2dffd7dcf")
+			(uuid "9d0381b5-e796-43db-b648-e716e70e01c4")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "aee403c7-1636-4411-8b0b-983e9833b051")
+			(uuid "bb47abe4-caf5-4bac-ad17-3e1be707a98f")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "ddfa3d49-1f55-4a01-a560-449acae633d9")
+			(uuid "67e052c4-9ecd-49ae-a8c6-b06d7704ebef")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -6017,11 +6013,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "5b8a4a76-538b-472f-923c-200633490b7a")
+			(uuid "e699b39e-f621-4f60-a9c8-bf81d6701fb1")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -6029,10 +6025,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "2d018788-8fa7-4ca4-9c6d-5553e4bd0130")
+			(uuid "bb4f340d-367b-4bdf-bf51-6892ebc1c68a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "db80c323-bd7c-425a-a4a3-4f900bbf6c45")
@@ -6044,7 +6040,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 39 "Net-(D29-A)")
@@ -6071,25 +6067,25 @@
 			(uuid "3f9acbc1-cf7c-42a2-9b26-c01b42ec72b3")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "de5cdf1d-b6d0-4aff-9e74-e47f0a7de66a")
+			(uuid "3f9acbc1-cf7c-42a2-9b26-c01b42ec72b3")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "56df0548-85bd-491d-aad8-875aae6eb9c9")
+			(uuid "3f9acbc1-cf7c-42a2-9b26-c01b42ec72b3")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "ed692ea5-029b-4576-b994-237478d650b4")
+			(uuid "3f9acbc1-cf7c-42a2-9b26-c01b42ec72b3")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -6118,7 +6114,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "3ef73d95-64e0-4265-9e81-8c51fd61d67c")
 		(at 126.638749 112.961818 -20)
@@ -6136,7 +6132,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -6148,7 +6144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6179,7 +6175,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f295cfb-8faf-4437-9726-0db7d5cf1abb")
+			(uuid "0c2e4598-d33f-404e-b7b5-ed1d252e4861")
 			(effects
 				(font
 					(size 1 1)
@@ -6193,8 +6189,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -6202,33 +6198,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "b3237f10-3ca5-455d-99d4-7ff61d35b63f")
+			(uuid "71f6588c-af05-45e8-8704-8d8f911a9802")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "c4febb5f-7f45-469c-bd32-8f36f0d15e59")
+			(uuid "52f194b4-8513-4a55-b4c8-faf1e7949877")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "6d47c79d-889d-4ace-bf08-85a1f411c1d9")
+			(uuid "d2aa7ca1-c443-427c-8237-2df78c0413a6")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -6236,11 +6232,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e7f42bad-6c95-4cd3-924d-b73f0130cdc2")
+			(uuid "267272f2-ff31-4912-b502-57a24986efac")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -6248,10 +6244,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f0b68903-211e-4bab-8954-f362a09abc5c")
+			(uuid "2eec5b1e-7fee-498e-9aa5-d5da9b37bd17")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ee7386cb-86f7-43a0-b83d-c0e13f70c0ca")
@@ -6263,7 +6259,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 28 "Net-(D17-A)")
@@ -6273,7 +6269,7 @@
 			(uuid "dbc98288-d6e7-40c3-81de-bf0603d78520")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 56 "Net-(RZ1-Pad14)")
@@ -6283,32 +6279,32 @@
 			(uuid "4f217d23-55c4-463a-a0a9-7f3145d6a1bf")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "e98c6e4a-b78a-4c1f-b213-8b3105db651c")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "27985645-58db-4ef9-a8e3-2654b132ed60")
+			(uuid "e98c6e4a-b78a-4c1f-b213-8b3105db651c")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "f83b5b7e-a47f-4297-b854-0cfe2d26d3d2")
+			(uuid "e98c6e4a-b78a-4c1f-b213-8b3105db651c")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "7dde197a-7528-4c0f-b27f-93f0647eae2d")
+			(uuid "e98c6e4a-b78a-4c1f-b213-8b3105db651c")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -6659,7 +6655,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "44f9a76d-8298-4708-be88-07295e9dee67")
 		(at 137.583393 82.891655 -20)
@@ -6677,7 +6673,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -6689,7 +6685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6720,7 +6716,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ccbc032a-9fdd-45dc-bae1-4cfb37a1721b")
+			(uuid "b6f7a815-1788-416b-ae0f-466e9e231c80")
 			(effects
 				(font
 					(size 1 1)
@@ -6734,8 +6730,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -6743,33 +6739,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "ccfdea6f-339b-404e-8897-190a7ee89c64")
+			(uuid "c9906097-aa9f-4401-badb-0746ed1a732e")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "20552d8e-9ebd-477e-814b-f65bcbcce018")
+			(uuid "4778e807-8581-4a39-b76f-2904993a7582")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "4d35f822-6502-4792-901e-7ea8195ddb13")
+			(uuid "b98f1b32-91d6-4ee5-8e25-ad4efd843a60")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -6777,11 +6773,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "29fdd472-19ef-4454-b825-4011237bf994")
+			(uuid "96d30f4d-d256-4eb1-9993-b055fe38285d")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -6789,10 +6785,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a139af31-3d40-41d9-b694-a1be8103a4c4")
+			(uuid "4bbbe0eb-12bd-4143-bdf3-a734f0e53e3d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c4d07a51-2f9b-41d2-9d6f-b22687bbf6b5")
@@ -6804,7 +6800,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "Net-(D15-A)")
@@ -6814,7 +6810,7 @@
 			(uuid "cdd1fbf1-2d6c-499b-bbb4-f1290cd6e8fa")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 56 "Net-(RZ1-Pad14)")
@@ -6824,32 +6820,32 @@
 			(uuid "f2670a63-16ff-46fa-adeb-eb3741fa0f91")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "0e7f8bc9-b44c-4521-a492-94d03e91b051")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "07390416-545a-41ee-b16d-f8a9c6f8efe5")
+			(uuid "0e7f8bc9-b44c-4521-a492-94d03e91b051")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "5fe999fa-d048-4bb2-927d-f92c3c469e21")
+			(uuid "0e7f8bc9-b44c-4521-a492-94d03e91b051")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "e11f6466-9514-4e12-80fe-73ae30753165")
+			(uuid "0e7f8bc9-b44c-4521-a492-94d03e91b051")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -6878,7 +6874,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "4b892a71-8595-4cd3-aba6-6132261525bc")
 		(at 104.778775 79.459854 -20)
@@ -6896,7 +6892,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -6908,7 +6904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6939,7 +6935,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2fbf7810-a608-4337-a551-37f75f7fc327")
+			(uuid "067e82f1-d319-40eb-8ae9-81133651d88e")
 			(effects
 				(font
 					(size 1 1)
@@ -6953,8 +6949,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -6962,33 +6958,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "11824267-ae2b-42fe-8e2e-634515692c94")
+			(uuid "5418266c-9f8c-4b6d-8ac2-2a7b78a9907d")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "4aecedcd-5b21-4285-80d2-3395740a912f")
+			(uuid "cd0a192f-0cdc-4271-835b-65acde505246")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "ae411c9c-18d7-46e4-bf8c-a62702dc1a24")
+			(uuid "f549c308-96ad-49f3-88a4-46c265bfd494")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -6996,11 +6992,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "1466ade5-bcd6-4475-960e-4cf01817c649")
+			(uuid "33a0d7c2-3ffd-4b57-bd22-07fda0f6c4b5")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -7008,10 +7004,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "ec1b6f36-9f53-442a-a21f-15dfec1f8716")
+			(uuid "a1cfc69b-d78c-4097-9167-5b8b343f48b7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a37dd215-8ce2-4354-ad3e-f415ec908c97")
@@ -7023,7 +7019,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "Net-(D8-A)")
@@ -7033,7 +7029,7 @@
 			(uuid "1d41f36d-4be0-4218-9577-9ec04f85a65e")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 55 "Net-(RZ1-Pad26)")
@@ -7043,32 +7039,32 @@
 			(uuid "67a4cfe0-f84b-41e0-8806-8d16b97cf563")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "70fd7a33-b06d-4ce8-bfa1-be3fe1e5c451")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "70257228-12fc-48b9-af5a-4528c4314c2b")
+			(uuid "70fd7a33-b06d-4ce8-bfa1-be3fe1e5c451")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "8e650c5f-7596-44b6-959e-8df94a5398b6")
+			(uuid "70fd7a33-b06d-4ce8-bfa1-be3fe1e5c451")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "f03dcf2b-c459-46b2-9afa-35e2d2caf09b")
+			(uuid "70fd7a33-b06d-4ce8-bfa1-be3fe1e5c451")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -7097,7 +7093,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "51dfa20a-10c2-45a6-97aa-64ce63fcd579")
 		(at 185.076442 143.518053 40)
@@ -7115,7 +7111,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000001 8.999998 40)
+			(at 0 9 40)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -7127,7 +7123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 40)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7158,7 +7154,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "904d981f-1db8-4d9f-b5ed-ce7398b95f54")
+			(uuid "577f0a03-fdd6-445c-9d5d-02756a2946b4")
 			(effects
 				(font
 					(size 1 1)
@@ -7172,8 +7168,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.799998 -3.499998) (xy 3.8 -1.649999) (xy 3.3 -1.150001) (xy -2.200001 -1.150002) (xy -2.199999 -3.900002)
-				(xy 2.199999 -3.900001) (xy 2.2 -3.499998)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -7181,10 +7177,10 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "a919772c-56da-48d9-ba67-ae8627275c4e")
+			(uuid "f6acbb92-c165-4430-bbf5-7c081737f3ca")
 		)
 		(fp_circle
-			(center -5.799999 2.749997)
+			(center -5.8 2.75)
 			(end -5.300001 2.75)
 			(stroke
 				(width 0.1)
@@ -7192,22 +7188,22 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "4c68d64c-ffe0-40fa-954b-23a8ae0dab4f")
+			(uuid "9ef27844-2baf-4b5a-8a46-82497d3837a2")
 		)
 		(fp_circle
-			(center 5.799999 -2.749997)
-			(end 6.400002 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "d7a576bb-7f08-4efb-b55c-864a75d9308d")
+			(uuid "1f9690e6-60f9-45f0-86b6-efbf5a306962")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.500001) (xy 6.749999 -6.5) (xy 6.75 6.500001) (xy -6.749999 6.5)
+				(xy -6.749999 -6.5) (xy 6.75 -6.5) (xy 6.749999 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -7215,11 +7211,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "2f00e843-425c-4d47-80fd-a4aa208f0fa4")
+			(uuid "7b56e7e6-fc92-487b-82a4-a4ee1a0b3620")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999998 8.000001) (xy 8.000001 7.999998) (xy 7.999998 -8.000001) (xy -8.000001 -7.999998)
+				(xy -8 7.999999) (xy 7.999999 8) (xy 8 -7.999999) (xy -7.999999 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -7227,10 +7223,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "cfea833b-2454-42f7-a1a9-d97966779d4c")
+			(uuid "43cc8fbd-03d4-4907-8e46-c8d47894be4d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100005 -5.6 40)
+			(at 0.1 -5.6 40)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e321e6fb-6112-4de8-b80f-526b5b2af96d")
@@ -7242,7 +7238,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 40)
+			(at -2.5 2.65 40)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "Net-(D22-A)")
@@ -7252,7 +7248,7 @@
 			(uuid "30caf810-2e63-4e93-8918-e16527ffb7ef")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650001 40)
+			(at 2.5 2.65 40)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "Net-(RZ1-Pad8)")
@@ -7262,7 +7258,7 @@
 			(uuid "081b6bd4-f1c1-4833-8dac-5f0b4bbf09ec")
 		)
 		(pad "3" smd rect
-			(at -6.350002 -6 40)
+			(at -6.35 -6 40)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
@@ -7273,21 +7269,21 @@
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "2193e9a4-fb29-4d48-8992-524085f5481c")
+			(uuid "051bd7b1-116b-4ce9-aca2-e9eb4fff8a58")
 		)
 		(pad "3" smd rect
 			(at 6.35 -6 40)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "9588e5da-1c12-4ef5-9e8c-8fa4f13c812a")
+			(uuid "051bd7b1-116b-4ce9-aca2-e9eb4fff8a58")
 		)
 		(pad "3" smd rect
-			(at 6.350002 6 40)
+			(at 6.35 6 40)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "c3ca4c18-12bc-4680-85b5-83962e1de613")
+			(uuid "051bd7b1-116b-4ce9-aca2-e9eb4fff8a58")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -7638,7 +7634,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "5a7ff523-cd4f-49dd-a766-81c2fe5eb34b")
 		(at 214.994882 126.256075 20)
@@ -7656,7 +7652,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -7668,7 +7664,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7699,7 +7695,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7c0915b-9445-41e7-8b3a-937b0db6861c")
+			(uuid "a47a55fb-c32a-48ba-9267-1d2b8d7d933f")
 			(effects
 				(font
 					(size 1 1)
@@ -7713,8 +7709,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -7722,33 +7717,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "21e40449-a1da-46fe-bf70-c91cd8c4d732")
+			(uuid "a6fc76ed-45b0-4edd-a02b-98ac78a32b43")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "2dbbddb6-fc57-471a-b6fd-66543bec7a4c")
+			(uuid "d179b3b0-b54c-4eb1-8670-5d541fff0e10")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "1219e7f0-05e6-4ebf-9c86-6b31a352aebd")
+			(uuid "e1c4d5fb-43f6-4e35-9e8e-71358155af7a")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -7756,11 +7751,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "47e654d8-1fdb-49fc-9a44-55e3737a5365")
+			(uuid "7e1e9acd-5bd9-4523-b860-f192a3d5cbd2")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -7768,10 +7763,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "88a8cf8a-3f41-4443-8fe8-1a01ba9e3c3b")
+			(uuid "4fe78ea5-f5eb-4225-a09c-711d26131314")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "824687ab-9af7-467c-8b34-320912aa8e3f")
@@ -7783,7 +7778,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 40 "Net-(D30-A)")
@@ -7810,25 +7805,25 @@
 			(uuid "9767ecf9-6a87-4cdc-bb70-ceaea42e3f1e")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "5a489a75-c7a6-43cc-a921-b60e0acf796f")
+			(uuid "9767ecf9-6a87-4cdc-bb70-ceaea42e3f1e")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "f2ab9144-f8bf-4acb-8817-f79489b67ecf")
+			(uuid "9767ecf9-6a87-4cdc-bb70-ceaea42e3f1e")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "6cea8313-c5e2-4f02-8575-ae58493cb13c")
+			(uuid "9767ecf9-6a87-4cdc-bb70-ceaea42e3f1e")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -7857,7 +7852,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "5ea3a13c-9179-41d0-9448-1effe86e6992")
 		(at 123.916401 73.66056 -20)
@@ -7875,7 +7870,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -7887,7 +7882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7918,7 +7913,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8df81e2b-65a3-4118-8d45-d9d6ef2f7a7a")
+			(uuid "cc2647fc-a938-40c5-be72-f58f58654e29")
 			(effects
 				(font
 					(size 1 1)
@@ -7932,8 +7927,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -7941,33 +7936,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "caf3c88f-539f-4e14-8b2d-7ce4ba102b1b")
+			(uuid "1a6c8ddc-d41c-49d2-92e4-9db26225fe46")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "e3c92be3-710d-4c87-bad4-a4462cbb8e23")
+			(uuid "233ef4e5-75d5-4603-bf4f-15d8ef7106f9")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "6baaffca-58f9-4247-92d6-0dc1b1c10878")
+			(uuid "c707eea3-784b-461c-85ae-27d4c8f120fd")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -7975,11 +7970,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b0b2b350-05c9-49ec-afbe-a9f5c53d3c0c")
+			(uuid "5ecece68-b373-4283-95f6-d1bd907f3adb")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -7987,10 +7982,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "03ba1116-f74f-4d8f-9ebe-6d66120bf38a")
+			(uuid "36f64ea5-6df0-46b1-a00d-f55cf8964b03")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "075e04e6-fc13-46ea-a724-cba02db2643d")
@@ -8002,7 +7997,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "Net-(D11-A)")
@@ -8012,7 +8007,7 @@
 			(uuid "46b85495-9b73-4ec7-bdcb-4f70357b60b5")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 59 "Net-(RZ1-Pad15)")
@@ -8022,32 +8017,32 @@
 			(uuid "cc75213c-32ef-4978-ba48-01741f05a61c")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "9012497c-a864-4ee8-95dc-93ab9206dc54")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "4f7b38b4-86cd-41bd-bcd8-6205d8c9706d")
+			(uuid "9012497c-a864-4ee8-95dc-93ab9206dc54")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "db7872b7-17c3-4947-9135-e9e87a6e24c9")
+			(uuid "9012497c-a864-4ee8-95dc-93ab9206dc54")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "38a32058-75b8-4ce1-9796-816d03a2929e")
+			(uuid "9012497c-a864-4ee8-95dc-93ab9206dc54")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -8398,7 +8393,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "66244894-df7f-4d36-8be6-3e3efa1297ee")
 		(at 209.510467 64.406888 20)
@@ -8416,7 +8411,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -8428,7 +8423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8459,7 +8454,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c597dc75-fdc9-44d6-b3b7-d195272debd3")
+			(uuid "e462c40b-72ab-4786-a8ef-085c5060e8b1")
 			(effects
 				(font
 					(size 1 1)
@@ -8473,8 +8468,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -8482,33 +8476,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "507c80e2-6a96-4c71-94c2-c50a2f3ef09e")
+			(uuid "3faff56b-9043-4eb2-bd8b-f2315cd3c9e7")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "b0a265a4-68f6-4f5f-a1a8-49427b1a3473")
+			(uuid "e0753540-3129-487a-8caa-9f7766f7ab36")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "42947fde-f410-4c64-9f61-15ae7ed0864f")
+			(uuid "51b7abaa-c10b-4029-b166-3934788b59dd")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -8516,11 +8510,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "50fad3b4-cf00-450f-933d-2505f17d0986")
+			(uuid "9a5f9686-3509-46ad-802d-607f7e6a66b2")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -8528,10 +8522,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "7f5f2bcc-6017-4fee-9689-e34ab66f6542")
+			(uuid "fdd6543d-9ec0-476a-9b07-aad075c83bd6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4fc41211-19ce-44d8-9db3-39c104d85848")
@@ -8543,7 +8537,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 37 "Net-(D27-A)")
@@ -8570,25 +8564,25 @@
 			(uuid "1daadbe5-c09d-426e-9787-92e49d86d1c1")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "1514fad6-3e4f-4dfb-98a2-df23f45e5256")
+			(uuid "1daadbe5-c09d-426e-9787-92e49d86d1c1")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "155392cd-b9d9-477a-a9a9-9cc5d6559216")
+			(uuid "1daadbe5-c09d-426e-9787-92e49d86d1c1")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "d28c30db-dbb6-4918-9594-790262184d4e")
+			(uuid "1daadbe5-c09d-426e-9787-92e49d86d1c1")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -8939,7 +8933,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "6971680e-295d-458d-9a07-d8c50c1f3dd2")
 		(at 253.259723 91.045256 20)
@@ -8957,7 +8951,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -8969,7 +8963,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9000,7 +8994,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05ed1487-cdc7-49d0-94a0-bb1ba4edc710")
+			(uuid "90a22c0c-4a04-4ce3-987a-a6b89d08025e")
 			(effects
 				(font
 					(size 1 1)
@@ -9014,8 +9008,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -9023,33 +9016,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "4ff1f829-b2d3-48c9-b333-9a3d4f48c9e6")
+			(uuid "ee2324b2-3ee5-470d-994b-4ab839afb912")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "3eef81d5-2c22-42c3-87e3-055196fcb77d")
+			(uuid "1a53258b-aa1d-4501-8339-96a6608b80cd")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "099f670e-68c1-4964-8846-5be71c3868a8")
+			(uuid "e13a119d-efa7-48c6-9cef-c812a9747342")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -9057,11 +9050,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "9eec2b1d-ca07-4595-b312-e91050cf0760")
+			(uuid "008cab21-ce5e-4fc6-b418-cdf9b4bea69b")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -9069,10 +9062,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "15fa1498-9f8b-4dce-bb5d-ef534c92cc3e")
+			(uuid "4e4a68c9-18e8-4a0a-b1c7-5d3ed32fb320")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fafc755c-1482-4d21-af17-33a9792291a3")
@@ -9084,7 +9077,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 46 "Net-(D36-A)")
@@ -9111,25 +9104,25 @@
 			(uuid "77ca0732-f6b0-4d96-80a2-d5deb9aee339")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "e195537b-b603-4933-91b4-acaabb8b772c")
+			(uuid "77ca0732-f6b0-4d96-80a2-d5deb9aee339")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "4ea98013-d8d6-4e83-a17d-a582361f3ddc")
+			(uuid "77ca0732-f6b0-4d96-80a2-d5deb9aee339")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "94a662e9-9eff-4a5a-bfed-267f5da29f58")
+			(uuid "77ca0732-f6b0-4d96-80a2-d5deb9aee339")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -9158,7 +9151,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "6ab4f79b-61cc-4ed5-b278-d0394fe360ea")
 		(at 99.303033 94.504331 -20)
@@ -9176,7 +9169,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -9188,7 +9181,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9219,7 +9212,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7eeb69b8-214a-4810-98cb-45f298eed649")
+			(uuid "66b92f3c-dffe-46fc-8b2d-b81fc6865dc3")
 			(effects
 				(font
 					(size 1 1)
@@ -9233,8 +9226,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -9242,33 +9235,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "cafbab5f-9d8c-4af9-b88a-afd33f199fb6")
+			(uuid "4339867f-eb8c-4609-b83a-fae90c0807de")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "c742633f-091c-4d1b-93f3-3eed9db0d45e")
+			(uuid "b12c49df-2992-4693-9aaf-f4b1a6eebfe8")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "0c05dd45-6c6a-4c73-9d5c-1561a0495f43")
+			(uuid "2c97af37-2c87-4d93-8bde-c4afda7e5e9d")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -9276,11 +9269,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "6cd86026-5a66-46da-90b3-fff26668644e")
+			(uuid "f0ab2e03-d7c1-4c67-beca-8ac00e63d03a")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -9288,10 +9281,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "9456e4cb-1fe8-43ba-92b7-afc3fc438ec9")
+			(uuid "2217c134-894d-4794-921a-655929a5ab05")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "eb639365-6f1b-46c3-b5a0-e58f330d7ba1")
@@ -9303,7 +9296,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "Net-(D9-A)")
@@ -9313,7 +9306,7 @@
 			(uuid "5f763514-66cb-45be-9167-8fa73804bef4")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 55 "Net-(RZ1-Pad26)")
@@ -9323,32 +9316,32 @@
 			(uuid "bcfa6950-2f23-4538-a5e0-86262a1b7582")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "943e6885-7e0f-4be0-b368-f4177abcbabf")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "45c405d7-e049-4a0d-b2ff-f3a18ec6bbb6")
+			(uuid "943e6885-7e0f-4be0-b368-f4177abcbabf")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "3ab9c65b-2cd5-4479-ac10-276a464c9294")
+			(uuid "943e6885-7e0f-4be0-b368-f4177abcbabf")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "5e9836c7-4cf2-4e9b-860f-7b346bb3362a")
+			(uuid "943e6885-7e0f-4be0-b368-f4177abcbabf")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -9377,7 +9370,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "6e62d5f8-8082-4b15-ac3a-75008bf0d3c9")
 		(at 132.11107 97.926734 -20)
@@ -9395,7 +9388,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -9407,7 +9400,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9438,7 +9431,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a81d6c47-df71-4132-9196-6d48077093dc")
+			(uuid "bd8c5fde-54f8-4dd0-b200-66fd74b055fe")
 			(effects
 				(font
 					(size 1 1)
@@ -9452,8 +9445,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -9461,33 +9454,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "fd40a186-198d-47a5-bffc-eb05ad37531e")
+			(uuid "4f8b72ba-864a-4efc-9e94-fb0b592fb256")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "13527cb6-6474-4cff-9348-4ce9718c75c0")
+			(uuid "b9b040e8-41e9-4849-8617-6818f517b49d")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "702cd9e6-48cb-494e-9a1d-1a7768b9e907")
+			(uuid "54fbecbe-c3e3-4d88-8681-03ec71893dbc")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -9495,11 +9488,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "da96f7ef-274e-4518-a4d1-be42812c6216")
+			(uuid "65116ca6-1e47-4065-902f-0686b931a027")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -9507,10 +9500,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a0d288b7-a1a6-486e-b590-2c161d6df86b")
+			(uuid "50c099e1-7299-486b-bfb8-6ade58b8a0f0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "36b80e27-164a-40a0-8fb3-48a53033cd59")
@@ -9522,7 +9515,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "Net-(D16-A)")
@@ -9532,7 +9525,7 @@
 			(uuid "f47671b5-dc84-4b8f-8235-d96fc996d6fe")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 56 "Net-(RZ1-Pad14)")
@@ -9542,32 +9535,32 @@
 			(uuid "62373932-ea60-48c5-9e86-760531f6a27a")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "2aa47ded-10bb-4666-a382-2b36e25a888d")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "be07b028-b804-4d67-bfed-31b6574aad10")
+			(uuid "2aa47ded-10bb-4666-a382-2b36e25a888d")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "0a417972-9ede-4d8f-abd3-57387aaba448")
+			(uuid "2aa47ded-10bb-4666-a382-2b36e25a888d")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "586176fe-59a8-40f4-9bd4-94ace8e5f9e7")
+			(uuid "2aa47ded-10bb-4666-a382-2b36e25a888d")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -9596,7 +9589,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "71bba008-9011-4882-8181-ace6de2760d7")
 		(at 104.716279 126.266248 -20)
@@ -9614,7 +9607,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -9626,7 +9619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9657,7 +9650,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b6061db-ff4e-4b2d-a99c-3902c61dbaf2")
+			(uuid "196a18c3-aee2-42be-a51a-60abbb671bb7")
 			(effects
 				(font
 					(size 1 1)
@@ -9671,8 +9664,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -9680,33 +9673,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "c0a21780-4d0a-47fa-a3a7-c6c8c54c09ea")
+			(uuid "9e12bb40-5331-4b76-9d49-f5a2f1fcb471")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "a8387c0a-5347-4aca-adde-2e66a78f3fc7")
+			(uuid "50c02859-0d85-4d79-844d-356ada3c61fe")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "54f1bf97-352c-4d04-8335-4d1f753bc0c7")
+			(uuid "444b3dd3-94ee-454d-8a76-eb82625b8211")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -9714,11 +9707,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "95ef455d-2f5e-4421-8393-6634fb56f1bb")
+			(uuid "9ff93575-ea69-4d7b-92e6-05b5116bd261")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -9726,10 +9719,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "4c8ea25e-335d-4558-a66e-22595dabd97f")
+			(uuid "af0f3271-24a9-4ba2-acf6-2e1a6860bd07")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "105d9a83-c1cb-4ed3-860c-d81858345ad6")
@@ -9741,7 +9734,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "Net-(D10-A)")
@@ -9751,7 +9744,7 @@
 			(uuid "2bcb6bb3-88b7-4e7f-b931-1e522291a275")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 55 "Net-(RZ1-Pad26)")
@@ -9761,32 +9754,32 @@
 			(uuid "650cb35f-1772-4df4-8731-9d06683196d8")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "3cefb05c-b6b1-46b7-899e-e48c9f8ceb8c")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "b69d7378-b9a8-47bd-a5c9-49a99456f34c")
+			(uuid "3cefb05c-b6b1-46b7-899e-e48c9f8ceb8c")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "c144d564-b205-4714-bd6b-a2d513897d9c")
+			(uuid "3cefb05c-b6b1-46b7-899e-e48c9f8ceb8c")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "122c1bb0-d5d1-4eb0-97bd-08f3962798fa")
+			(uuid "3cefb05c-b6b1-46b7-899e-e48c9f8ceb8c")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -10459,7 +10452,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "7c04c96e-e41f-4b84-b360-7d29c3ea8b7f")
 		(at 242.315085 60.97509 20)
@@ -10477,7 +10470,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -10489,7 +10482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10520,7 +10513,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5d952cc-1ab2-489d-a348-97397bbb3b87")
+			(uuid "0d22da69-0680-446b-b841-93fe3d58c19d")
 			(effects
 				(font
 					(size 1 1)
@@ -10534,8 +10527,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -10543,33 +10535,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "e8a8f174-5de6-445c-8491-3c07355b0b33")
+			(uuid "d8c2eea9-9f81-46a4-bf43-5594cf46922b")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "0b81fe18-cc5e-4dca-8e33-ea23a0b92350")
+			(uuid "8fef4745-0006-4fd6-a2fb-ffc97c944679")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "d4d3faa4-56fd-4ee8-a6b0-d656ddd29050")
+			(uuid "c4d13d4f-232c-4ab6-b110-8d1104277d10")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -10577,11 +10569,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e6121a9f-17ab-4bc5-87eb-31dcecc5179e")
+			(uuid "0152ae00-d4df-49b8-ad2f-d6ce0a720d7d")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -10589,10 +10581,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "bdacf155-9b67-4b3b-a934-525ada3f8e88")
+			(uuid "66bde252-3f44-44b8-b309-92970b327cdb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "98593e56-2656-4b5d-9588-d9deb100dca2")
@@ -10604,7 +10596,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 44 "Net-(D34-A)")
@@ -10631,25 +10623,25 @@
 			(uuid "7403f10d-8724-4f9c-85d4-7ab41b563b88")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "0d118712-3b26-43ea-87a9-c778d71c7e5e")
+			(uuid "7403f10d-8724-4f9c-85d4-7ab41b563b88")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "cf4dfb3d-9f0b-4217-ad12-370792aa79d8")
+			(uuid "7403f10d-8724-4f9c-85d4-7ab41b563b88")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "5eb468f8-6656-4e73-a767-d063cdacdd70")
+			(uuid "7403f10d-8724-4f9c-85d4-7ab41b563b88")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -10678,7 +10670,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "8634f594-afd3-4a2c-b55c-8e9bab191faf")
 		(at 206.762907 103.711998 20)
@@ -10696,7 +10688,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -10708,7 +10700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10739,7 +10731,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a70e40e-17e2-4ec5-b83b-bd0796886e38")
+			(uuid "b55fcd48-0ed4-4b83-8c40-3ca2e0d5ad80")
 			(effects
 				(font
 					(size 1 1)
@@ -10753,8 +10745,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -10762,33 +10753,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "6d0316f5-eea3-4f1c-a20e-05f101ec7a13")
+			(uuid "bd7bb266-0c4d-4b35-900c-e4a6b165018e")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "bbda53be-f622-40ca-b983-4a88ab366172")
+			(uuid "d7d3f797-a407-4f9d-b64b-b811f838be0d")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "bb395283-f5cd-4cb6-a82f-6a4670736010")
+			(uuid "dcd95c6f-d5f1-445b-871b-cbb3f1e08fc8")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -10796,11 +10787,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d723b6de-581b-4332-9a2c-cccf8f87cfd2")
+			(uuid "11d50a7d-31e9-41d6-9e7a-5c708a8c641c")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -10808,10 +10799,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "80533024-5722-404f-8e6b-dc4999b21f32")
+			(uuid "d06c5750-ad09-45ad-b31f-1d99d6f58e48")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "79dcffb1-1f1a-435d-b418-dfc07d8c0a2c")
@@ -10823,7 +10814,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "Net-(D25-A)")
@@ -10850,25 +10841,25 @@
 			(uuid "984eb859-73a0-4596-bf89-131e0f8270af")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "688918bf-9450-4c1d-b215-612c2e7d703e")
+			(uuid "984eb859-73a0-4596-bf89-131e0f8270af")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "ceb2ad68-ef37-46b4-a3e1-2af6f0e14544")
+			(uuid "984eb859-73a0-4596-bf89-131e0f8270af")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "2349467e-c37c-41ec-bf13-c56eeac62222")
+			(uuid "984eb859-73a0-4596-bf89-131e0f8270af")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -11219,7 +11210,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "9157de01-795f-4086-b84a-2e8c8ef9b7bf")
 		(at 187.600093 97.916557 20)
@@ -11237,7 +11228,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -11249,7 +11240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11280,7 +11271,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a49c4d85-95f3-46f7-bea4-7b2f5ca9b585")
+			(uuid "aa579309-80cb-4b83-9edb-b92923c54e38")
 			(effects
 				(font
 					(size 1 1)
@@ -11294,8 +11285,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -11303,33 +11293,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "80d05a96-19d6-4e90-8ea2-2be2f87f570d")
+			(uuid "f4796cc2-e56d-42ff-96bc-7dd733d66a7e")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "69f41353-4421-496a-bce8-6d4be84036b7")
+			(uuid "d5a0154f-3ad6-42bc-8674-6ed06b42df78")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "8403a081-994b-496f-b5e6-fe0ce9109eaf")
+			(uuid "cae91c97-49ef-43b7-96e9-db84f202fd05")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -11337,11 +11327,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d9a65e94-aba7-4566-ae65-a412890d7d62")
+			(uuid "2c0e4790-fc67-4115-8632-8a785ebb0aa3")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -11349,10 +11339,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "1f579dd1-a0e0-4086-80e9-05eda5143972")
+			(uuid "bed36439-0cfe-40f4-9ae6-db2defa4da43")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2ec7d110-3e2a-4ae5-9afd-224b223122ce")
@@ -11364,7 +11354,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 30 "Net-(D20-A)")
@@ -11391,25 +11381,25 @@
 			(uuid "b296ad06-22d8-4028-8f14-ba8dbbd30412")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "9e417573-8c9c-413c-bbd0-6083f10cfe33")
+			(uuid "b296ad06-22d8-4028-8f14-ba8dbbd30412")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "7b5e5d4d-77ff-4a83-9e51-154647fa902c")
+			(uuid "b296ad06-22d8-4028-8f14-ba8dbbd30412")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "4820e60d-99b3-4c11-b504-15ce44dec196")
+			(uuid "b296ad06-22d8-4028-8f14-ba8dbbd30412")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -11438,7 +11428,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "955681c9-8dcd-4285-9aef-8452c4acabce")
 		(at 199.291044 133.582298 30)
@@ -11456,7 +11446,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000002 30)
+			(at 0 9 30)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -11468,7 +11458,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 30)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11499,7 +11489,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92474a8e-0f2a-4260-9627-6720fad3f206")
+			(uuid "56cbc87a-9adf-4706-b27f-5a5dba9611fa")
 			(effects
 				(font
 					(size 1 1)
@@ -11513,8 +11503,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.650001) (xy 3.299999 -1.149999) (xy -2.2 -1.15) (xy -2.199999 -3.899999)
-				(xy 2.200003 -3.899998) (xy 2.200002 -3.5)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.9) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -11522,10 +11511,10 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "c978fe3f-771d-4d52-ba09-efdebe7b3c2d")
+			(uuid "e5f5bf7c-6ff7-4a04-85e5-434bbfc2b592")
 		)
 		(fp_circle
-			(center -5.8 2.750001)
+			(center -5.8 2.75)
 			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
@@ -11533,22 +11522,22 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "c4ea4617-4154-4181-808c-09b287c65798")
+			(uuid "62562cc4-0dce-4366-ad4d-7e1a2faa449e")
 		)
 		(fp_circle
-			(center 5.8 -2.750001)
-			(end 6.4 -2.749998)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "f11c2a86-2085-4b0b-9b1a-fe48fd9d32de")
+			(uuid "8c6ad3fe-2a0a-4031-aa0b-4effec547c45")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.500001) (xy 6.749999 -6.500001) (xy 6.75 6.500001) (xy -6.749999 6.500001)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -11556,11 +11545,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e432a5e9-330f-495d-aab0-3224432dd68e")
+			(uuid "7b66b79e-adae-455e-8072-ca35252d7c67")
 		)
 		(fp_poly
 			(pts
-				(xy -8 7.999996) (xy 7.999996 8) (xy 8 -7.999996) (xy -7.999996 -8)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -11568,10 +11557,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d0ed9d74-0bab-460e-987c-e723fd560f1b")
+			(uuid "5c16c5e6-e50d-4942-840c-edc7b2745e83")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 30)
+			(at 0.1 -5.6 30)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ed77d1b2-7a62-4335-85a5-0e643ab3200f")
@@ -11583,7 +11572,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 30)
+			(at -2.5 2.649999 30)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "Net-(D26-A)")
@@ -11593,7 +11582,7 @@
 			(uuid "027f2c89-b881-42e6-ba67-e0a451417d45")
 		)
 		(pad "2" smd rect
-			(at 2.500001 2.649999 30)
+			(at 2.500001 2.65 30)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 50 "Net-(RZ1-Pad7)")
@@ -11603,32 +11592,32 @@
 			(uuid "b22b525b-42ab-452f-93fe-2712d3fdde71")
 		)
 		(pad "3" smd rect
-			(at -6.35 -5.999998 30)
+			(at -6.35 -5.999999 30)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "42e7ca07-8bde-47f3-9696-b4c911c53561")
 		)
 		(pad "3" smd rect
-			(at -6.349997 6 30)
+			(at -6.35 6 30)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "c8cfa095-4fb3-4279-87b8-699e9c5449d4")
+			(uuid "42e7ca07-8bde-47f3-9696-b4c911c53561")
 		)
 		(pad "3" smd rect
-			(at 6.349997 -6 30)
+			(at 6.35 -6 30)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "24aca2a2-11dd-4d04-ab8d-9a9479a3a2ba")
+			(uuid "42e7ca07-8bde-47f3-9696-b4c911c53561")
 		)
 		(pad "3" smd rect
-			(at 6.35 5.999998 30)
+			(at 6.35 5.999999 30)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "33706e93-693b-4a29-9216-ec9a60cb56f2")
+			(uuid "42e7ca07-8bde-47f3-9696-b4c911c53561")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -11979,7 +11968,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "99f356ba-fd36-4ccc-92eb-9eed9f4549b3")
 		(at 225.911919 62.688638 20)
@@ -11997,7 +11986,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -12009,7 +11998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12040,7 +12029,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fe996e5-2145-4b6a-9edf-8388ef50fbcf")
+			(uuid "256876e6-603e-4821-8886-55a2243b15cc")
 			(effects
 				(font
 					(size 1 1)
@@ -12054,8 +12043,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -12063,33 +12051,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "e481150d-3997-4a58-948a-3ca67f140c13")
+			(uuid "ceba1eae-b629-44b1-937a-07f11c1903be")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "3bb6b2df-47d0-47aa-8a5b-02ed8e63ccbb")
+			(uuid "f75298c7-99bc-48f0-98f4-62bf46863820")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "db624185-e59f-4db5-93a0-e6bfa922c61d")
+			(uuid "18b0742f-1aa3-46c8-8619-c9432bddb52a")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -12097,11 +12085,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f67086c6-3f48-4d7b-8634-3244b04f429f")
+			(uuid "8870ac1a-4bb6-4d99-a9ce-2188b8e9227a")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -12109,10 +12097,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "37f746c1-c114-4ce4-8a3a-e220c08058cb")
+			(uuid "29a3692c-44cd-4077-abf8-b29d9802a265")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7dc4fb96-ca43-45fc-9f88-0f2a4938d75b")
@@ -12124,7 +12112,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 41 "Net-(D31-A)")
@@ -12151,25 +12139,25 @@
 			(uuid "7be72669-e642-4140-8edb-34083ab98d4f")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "45be52f5-8550-4e8d-b321-996dfa9414c8")
+			(uuid "7be72669-e642-4140-8edb-34083ab98d4f")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "5c23f85a-63af-4a19-8871-7c2a7e6d602b")
+			(uuid "7be72669-e642-4140-8edb-34083ab98d4f")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "e9bc89b8-542d-420d-8cee-a7107ff89ed2")
+			(uuid "7be72669-e642-4140-8edb-34083ab98d4f")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -12198,7 +12186,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "9d248809-ee81-4936-868e-748efcb89c53")
 		(at 214.982792 79.441972 20)
@@ -12216,7 +12204,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -12228,7 +12216,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12259,7 +12247,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7bbf07f9-1391-4d53-aeb2-1d7efeb24ec8")
+			(uuid "39b74c4c-ebb7-4afe-8ef5-08a428f28b24")
 			(effects
 				(font
 					(size 1 1)
@@ -12273,8 +12261,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -12282,33 +12269,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "5b7c26a7-1b3e-4a87-a7d9-f778b575e925")
+			(uuid "8205667c-1b71-4cdb-b222-0a6bb686a01f")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "340cad76-2a2c-4549-a089-ac7a6b92e43d")
+			(uuid "7eca9245-4924-4ab0-a08d-7fcc2a4420e3")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "fb16e2e1-09a2-466b-a223-7e3718d4d396")
+			(uuid "0ec427fc-0d67-44ea-bb84-cbea5fb23c3e")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -12316,11 +12303,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a7564979-0999-460c-871e-8276b52f41f3")
+			(uuid "1b1ecaff-b348-4863-ae41-4989f10d5692")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -12328,10 +12315,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "82742f7c-e455-417e-8edf-abd38daba867")
+			(uuid "4ccfcee0-1ee0-49b6-a84b-f58d259cb9c4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100002 -5.600001 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b6ef74c4-b99e-4a16-b007-c2e4dbe28f65")
@@ -12343,7 +12330,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 38 "Net-(D28-A)")
@@ -12370,25 +12357,25 @@
 			(uuid "8defd177-4f9c-4e57-8567-d16b61228d8a")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "160fb44d-dd70-4300-9101-2f3155c05ace")
+			(uuid "8defd177-4f9c-4e57-8567-d16b61228d8a")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "11319585-5368-4ae4-bfde-158863e730cd")
+			(uuid "8defd177-4f9c-4e57-8567-d16b61228d8a")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "11c77b8e-7671-4445-b242-40d5a1f1c0fb")
+			(uuid "8defd177-4f9c-4e57-8567-d16b61228d8a")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -13061,7 +13048,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "ae1030ff-983f-4a87-9130-650273bbfca0")
 		(at 182.127776 82.881478 20)
@@ -13079,7 +13066,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -13091,7 +13078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13122,7 +13109,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "294b4cdf-c978-41bf-9409-f1612b99f337")
+			(uuid "ed11551e-ef2d-4bf2-bb8c-e224d4710eae")
 			(effects
 				(font
 					(size 1 1)
@@ -13136,8 +13123,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -13145,33 +13131,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "e2cad535-99f2-49a0-8729-fb8c013b0bdf")
+			(uuid "40da9d90-7f50-41ac-9882-a33c48d61912")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "a1312d53-275f-44bb-9b7e-67a9f3dccc91")
+			(uuid "98cf6b0b-e054-406a-93ff-cb07385a30f5")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "7aa4a73f-6a05-422f-81b9-d74b6dcfea87")
+			(uuid "da8e79ed-43b0-4d7d-9e76-c08b986b2b06")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -13179,11 +13165,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "6e0f1dc5-1bd4-45e4-bd9e-4160f5ba9f69")
+			(uuid "c72894b0-eb7f-4b73-a9a2-c5c7f4e207b3")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -13191,10 +13177,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "2a74b913-f22d-4366-bc25-4b10f72eb999")
+			(uuid "315e09d1-0351-45cf-b466-c5574155f462")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "64b7571e-e319-4af9-a9c7-457486fd66a1")
@@ -13206,7 +13192,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 29 "Net-(D19-A)")
@@ -13233,25 +13219,25 @@
 			(uuid "57c7ed66-c8da-4770-8198-5b334e29322c")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "123c7474-2a17-41ee-8343-a6d3adaaef2b")
+			(uuid "57c7ed66-c8da-4770-8198-5b334e29322c")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "bc58216f-04a2-4647-be45-7a95d888eff1")
+			(uuid "57c7ed66-c8da-4770-8198-5b334e29322c")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "0c59f943-bbb8-4bd6-93a5-627ec875659c")
+			(uuid "57c7ed66-c8da-4770-8198-5b334e29322c")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -13280,7 +13266,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "ae55fc5a-f9f5-4bbb-803d-bdc4c57164dc")
 		(at 88.35042 77.742447 -20)
@@ -13298,7 +13284,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -13310,7 +13296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13341,7 +13327,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29a5c14b-865d-4189-ab40-704845a3e600")
+			(uuid "ce86bbf6-1656-4013-9533-c7cbe6e0865a")
 			(effects
 				(font
 					(size 1 1)
@@ -13355,8 +13341,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -13364,33 +13350,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "c01245ae-6067-40ab-8730-68e2a0660d5e")
+			(uuid "c7bc6b07-6981-41db-96f2-753754d81473")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "1e87754d-d3b8-43b3-b7fd-cdfff94afe66")
+			(uuid "05ba5c01-ad51-4d50-a759-a2cf77818378")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "bdc52270-4b77-4119-a7ee-4f5955ddaf5d")
+			(uuid "69ff1251-5a02-40ed-8c64-e05ffeb63c7f")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -13398,11 +13384,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f9766d2b-66d7-437b-b965-682ecc2968e0")
+			(uuid "ddc67150-677a-400b-8fdd-e4748f1fd429")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -13410,10 +13396,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "933c4325-c956-4bb7-bd68-0fb1e1c60aa5")
+			(uuid "b9378dd6-691d-4c4d-9c69-5b4887e51772")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "eb3ff6fe-e49b-41f5-a025-fa13e7aba43c")
@@ -13425,7 +13411,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "Net-(D5-A)")
@@ -13435,7 +13421,7 @@
 			(uuid "4064339b-83a7-4cfa-b7ee-2af6f94a35b5")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 57 "Net-(RZ1-Pad27)")
@@ -13445,32 +13431,32 @@
 			(uuid "df5817fc-d1f9-4e89-8144-a2c10203f53d")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "22259afe-0971-49da-b05a-83ccc85b7508")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "f6e3e7bd-23c8-4585-8867-84c698d247af")
+			(uuid "22259afe-0971-49da-b05a-83ccc85b7508")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "a822cad3-b2d6-4b43-ac8e-b33f8c2eca14")
+			(uuid "22259afe-0971-49da-b05a-83ccc85b7508")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "502a2155-c51c-4ea7-af81-761452de4541")
+			(uuid "22259afe-0971-49da-b05a-83ccc85b7508")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -13499,7 +13485,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "b0eb7327-2639-44d2-90e6-0b79c9d90fa4")
 		(at 112.971745 103.730732 -20)
@@ -13517,7 +13503,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -13529,7 +13515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13560,7 +13546,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67e81a64-d320-4b10-b898-74e4d59a19d6")
+			(uuid "434ed84c-56ad-40f1-9830-b0084989c738")
 			(effects
 				(font
 					(size 1 1)
@@ -13574,8 +13560,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -13583,33 +13569,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "f20c1ac1-e63f-4df0-9e28-2d2f62757cc3")
+			(uuid "3c1975ea-13d7-4535-863f-135897dd5b21")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "ce7c9a5a-32f1-40a0-8319-6ce0947b455b")
+			(uuid "5f1df9ce-e8ad-475a-8255-7b4725dccaff")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "10117d5a-0ec2-4370-9470-2e3f6a07edac")
+			(uuid "12e48020-95ed-43d1-9dd9-8121740ff724")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -13617,11 +13603,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "cc4437f9-ab3f-44eb-8dcb-36c45b577fdc")
+			(uuid "ada6a4bc-5c76-4d74-b5fa-3a24b7ccf474")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -13629,10 +13615,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e79d6c04-c609-489f-a453-f0d4440525fb")
+			(uuid "e39caa3e-a5c4-4cb7-aa99-987f4f2fa084")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ea65fd9a-e32f-48b7-8b3b-0d2f5550ddd6")
@@ -13644,7 +13630,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "Net-(D13-A)")
@@ -13654,7 +13640,7 @@
 			(uuid "4f76779d-753a-4e3a-9377-1b846698e9ac")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 59 "Net-(RZ1-Pad15)")
@@ -13664,32 +13650,32 @@
 			(uuid "c4c1bdcf-28ee-4811-b1a1-c8fe1a636643")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "03b4975b-e512-4629-9e37-0368e0de868d")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "d5b32cf3-657a-4794-a489-3f4060a31603")
+			(uuid "03b4975b-e512-4629-9e37-0368e0de868d")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "4ba5ff27-65e6-4aca-aba4-fb2a4e39ed28")
+			(uuid "03b4975b-e512-4629-9e37-0368e0de868d")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "43b35e5e-346c-410a-a17d-636cdcfb3b2d")
+			(uuid "03b4975b-e512-4629-9e37-0368e0de868d")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -14362,7 +14348,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "bf81703b-ef5f-4e65-92e3-8791842157ad")
 		(at 236.856565 92.758798 20)
@@ -14380,7 +14366,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -14392,7 +14378,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14423,7 +14409,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c027fa71-61e4-4659-b052-2e6041ce4ed8")
+			(uuid "a0145565-50ce-4cad-a277-e46af25135ac")
 			(effects
 				(font
 					(size 1 1)
@@ -14437,8 +14423,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -14446,33 +14431,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "7b1740b8-1808-4e03-96d4-12182478bd20")
+			(uuid "11b60926-627b-4c49-b010-31597fc734e6")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "12d1cb8d-90c4-4dde-aba8-f836602262d2")
+			(uuid "f8f3aa0a-41ec-46f5-b1ca-49e63230a342")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "4ab2f914-15c0-4d37-ab3a-4a5074ce0999")
+			(uuid "85132f16-4c6a-495c-ab60-c828ca444757")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -14480,11 +14465,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "042de725-02df-4c28-8261-7b682dfbe99f")
+			(uuid "094a1c2b-5cb8-43cc-914f-9385c4360357")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -14492,10 +14477,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a0460f00-5953-4c32-8cc0-4fed822ddc88")
+			(uuid "b08eb4c7-a23d-4159-a12c-dbd37b4197d4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6e48e878-13ad-40f5-8854-511722d892b8")
@@ -14507,7 +14492,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 43 "Net-(D33-A)")
@@ -14534,25 +14519,25 @@
 			(uuid "137d6747-586b-4b92-8c56-f6086f9f12e6")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "d4472b81-5379-4a40-971c-6bf28402a91d")
+			(uuid "137d6747-586b-4b92-8c56-f6086f9f12e6")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "dd5d9d61-9bb9-4862-9fe9-763f92d4024e")
+			(uuid "137d6747-586b-4b92-8c56-f6086f9f12e6")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "b0917a86-4ed9-4a8e-84cb-e9e33179a659")
+			(uuid "137d6747-586b-4b92-8c56-f6086f9f12e6")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -15547,7 +15532,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "cdef7c71-0b6a-4fef-b106-cf029431088f")
 		(at 247.787403 76.01017 20)
@@ -15565,7 +15550,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -15577,7 +15562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15608,7 +15593,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04120909-3311-49e5-93a6-a9ca9d3dca37")
+			(uuid "3b5cc9f4-0ac6-47d3-a64d-fff98ff975a1")
 			(effects
 				(font
 					(size 1 1)
@@ -15622,8 +15607,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -15631,33 +15615,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "25cb6b89-876c-40c6-a854-b66e6714162d")
+			(uuid "eb1d2e25-8059-45b5-90b3-09ed3483c6c3")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "9b7fdef1-faee-45d8-8c3b-2080564eab7c")
+			(uuid "277dd3fe-c22e-430a-a959-f2b64ccd0b2b")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "6f87c7db-9800-40fc-b151-bb6f4e41e5b6")
+			(uuid "2487d741-1cea-4ace-a109-382c1868b21a")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -15665,11 +15649,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e2b3abf5-305e-417c-8643-73487ed657d3")
+			(uuid "98699c71-dcc7-4566-b8b7-9e9bee2aa764")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -15677,10 +15661,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "42368bf2-afb7-4baf-8b4d-f88d97bfdbd2")
+			(uuid "d35677bd-f731-4840-b1b7-523debb3ad46")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "eeb89dfc-29fa-43b1-b540-b13f9cc991f4")
@@ -15692,7 +15676,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 45 "Net-(D35-A)")
@@ -15719,25 +15703,25 @@
 			(uuid "6cdf8542-e021-4edb-ac26-c6181a825538")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "f9b99445-0913-4b28-b8af-72c076d5db97")
+			(uuid "6cdf8542-e021-4edb-ac26-c6181a825538")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "5b123287-e36c-41b9-ad6b-2cc590ede31d")
+			(uuid "6cdf8542-e021-4edb-ac26-c6181a825538")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "1e57abef-aab8-4a08-a68e-e8d3da493b33")
+			(uuid "6cdf8542-e021-4edb-ac26-c6181a825538")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -15766,7 +15750,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "cf8a4808-5d2e-4a8d-9a0b-23eeac360a86")
 		(at 110.251104 64.424762 -20)
@@ -15784,7 +15768,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -15796,7 +15780,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15827,7 +15811,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "44bc760a-864a-4bfb-b8ba-5cadf8fa5a52")
+			(uuid "6d6406d3-7ee9-489d-9373-1cfe91471f06")
 			(effects
 				(font
 					(size 1 1)
@@ -15841,8 +15825,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -15850,33 +15834,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "cedead3f-e184-440d-ad54-44f7401f8f98")
+			(uuid "c49096fe-1da3-417f-9030-d2938207fd86")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "afd63bf0-829e-4e37-b13d-edb76c064049")
+			(uuid "87741136-8776-4a3b-840c-f98faca56ac2")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "d8d4ef43-bc81-4412-be0a-5af1fe0d2695")
+			(uuid "bf80f91f-7824-4f50-acb0-3c7939591f25")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -15884,11 +15868,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d5ae9695-2888-4f56-8476-8e7454aa1a13")
+			(uuid "114934c9-4821-4ff0-97a7-7a3bc561f543")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -15896,10 +15880,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "3e8cfbe1-a165-4802-aa8f-7cc4eed5543d")
+			(uuid "b634c962-f2bb-424c-a268-a5bf0cbec185")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1da40cc3-e5a8-4889-bb75-cbfcf6d9bf3f")
@@ -15911,7 +15895,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "Net-(D7-A)")
@@ -15921,7 +15905,7 @@
 			(uuid "02a45e13-279d-48d3-8502-e968b0b19724")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 55 "Net-(RZ1-Pad26)")
@@ -15931,32 +15915,32 @@
 			(uuid "1fd99aa3-24d4-4b88-9bb9-cec5f865081e")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "618d1031-a673-4039-b74f-8b208695eb3e")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "17f87acf-9cee-4725-9e1b-a2ca92261e1c")
+			(uuid "618d1031-a673-4039-b74f-8b208695eb3e")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "272f3727-b4b4-49e7-bd83-e0d8638f343a")
+			(uuid "618d1031-a673-4039-b74f-8b208695eb3e")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "9b5bb740-cbaa-4250-b7e4-c52f78070130")
+			(uuid "618d1031-a673-4039-b74f-8b208695eb3e")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -17273,7 +17257,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "f1c899be-89e1-4203-ae49-716f5443db72")
 		(at 77.396083 60.985265 -20)
@@ -17291,7 +17275,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -17303,7 +17287,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17334,7 +17318,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d861aedd-5d99-492e-8786-f359c8904d9f")
+			(uuid "3bcb6b2f-d5ad-40d3-8895-a310c3512a0c")
 			(effects
 				(font
 					(size 1 1)
@@ -17348,8 +17332,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -17357,33 +17341,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "7c033aca-9454-4313-ada4-a985cc791a2d")
+			(uuid "76a1496c-ea8f-4f8c-b1dd-f386585f8cc7")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "66f1979d-35d1-49a3-9c45-0cbb78bf6a0b")
+			(uuid "c34957d3-8a0c-4923-95e5-fb67f3507a8a")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "f4ce60ee-758f-4498-b4e4-a12f971c560b")
+			(uuid "5f5823b9-377c-4f80-bd3e-0f71649a97d1")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -17391,11 +17375,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "ef65f8e4-8123-4203-a83b-e43a93666731")
+			(uuid "8b31297a-9233-4933-bbae-2c344f59c1d8")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -17403,10 +17387,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "48a460f7-0d42-43d4-a7c3-5a28fbc66293")
+			(uuid "e99c704b-db13-4c3c-a3e6-6b8993a7e54f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c689b364-2071-4600-bf7c-8f4569202285")
@@ -17418,7 +17402,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "Net-(D1-A)")
@@ -17428,7 +17412,7 @@
 			(uuid "5dc43916-ce1f-439c-83fb-ef7779a9a22f")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 53 "Net-(RZ1-Pad28)")
@@ -17438,32 +17422,32 @@
 			(uuid "e12daa1d-4c82-4070-8c49-f290eb11e928")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "866c19fd-1c8a-470f-a355-108b4e4c4ebc")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "e5b4b446-3347-46d0-b1e6-26f86b832b02")
+			(uuid "866c19fd-1c8a-470f-a355-108b4e4c4ebc")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "912e7c33-57a7-4c72-b389-a0ccde763699")
+			(uuid "866c19fd-1c8a-470f-a355-108b4e4c4ebc")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "0d75a05c-fd16-40f9-ac5a-72c740451ccd")
+			(uuid "866c19fd-1c8a-470f-a355-108b4e4c4ebc")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -17492,7 +17476,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "f23c1b79-d2b0-407f-82dc-ec349421f23e")
 		(at 93.822741 62.707364 -20)
@@ -17510,7 +17494,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -17522,7 +17506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17553,7 +17537,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0d923c6-99bc-45b5-a95b-ad9bba74fd31")
+			(uuid "d90a6c74-81bb-43d8-bc70-029f1e91e157")
 			(effects
 				(font
 					(size 1 1)
@@ -17567,8 +17551,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -17576,33 +17560,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "418d838e-9151-40b0-b5c2-d6d37363a7c1")
+			(uuid "f405c2f7-8bc7-4e19-962c-290fb7ae2f58")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "61be5013-71bd-4b13-8d82-a9a7121f6b48")
+			(uuid "34fe9dbd-a2d7-4f34-ae47-3c99c1365bb8")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "d3d92a14-6d33-44ce-80fa-9fcc355c5a01")
+			(uuid "09adc3f1-64d5-4b59-92ed-5c3f4a293b97")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -17610,11 +17594,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e6f30764-8383-4d47-8814-59b344c29da2")
+			(uuid "f06fa2b4-4dd0-432a-93a0-19b4e8d03fd6")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -17622,10 +17606,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "3fde0b7e-309e-490f-9097-f1cf27e29d57")
+			(uuid "27f9deed-1a4a-4af2-9196-a5509856816d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a106e2d6-bc28-4dde-a99b-01421e93c34a")
@@ -17637,7 +17621,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "Net-(D4-A)")
@@ -17647,7 +17631,7 @@
 			(uuid "eaf31a7d-de90-4616-ba38-4cebe7ac595d")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 57 "Net-(RZ1-Pad27)")
@@ -17657,32 +17641,32 @@
 			(uuid "53effbac-f450-48f9-a5ef-ea9f75ecd733")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "dcd9221e-f687-4460-b8c2-6b239a0d404a")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "02cc36cf-ee7a-43e9-a3f2-8d4598bb7ce3")
+			(uuid "dcd9221e-f687-4460-b8c2-6b239a0d404a")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "764b0d93-fe97-4bd1-9142-727b55bec7ce")
+			(uuid "dcd9221e-f687-4460-b8c2-6b239a0d404a")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "35f4acb2-7366-432e-8372-89ccbecdd075")
+			(uuid "dcd9221e-f687-4460-b8c2-6b239a0d404a")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -17711,7 +17695,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "f4488c39-569b-45cb-a917-f6b6e5db2ad0")
 		(at 195.818268 73.641837 20)
@@ -17729,7 +17713,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -17741,7 +17725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17772,7 +17756,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34930740-6e54-42b2-a386-d7083b6a557d")
+			(uuid "3fe96758-67f5-42b3-8b3f-864add6af831")
 			(effects
 				(font
 					(size 1 1)
@@ -17786,8 +17770,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -17795,33 +17778,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "3493873f-37ef-447b-a9f1-b8de442d1065")
+			(uuid "5048ea2e-98ab-419d-bd5c-0a9e59f1c6c8")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "60899188-7f49-4ff1-9ac7-a7d073036209")
+			(uuid "7ba55f92-c330-4e4d-9bd3-41d4c7682648")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "1e9c21c5-3164-42dc-92d8-3579a5281d40")
+			(uuid "586a9b99-b808-4ab5-b0f2-4706fac81219")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -17829,11 +17812,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e6d22d84-ddf1-46bf-9d39-0c870397df18")
+			(uuid "0b0749fd-0098-4ccd-b5d8-63b7895b1ae1")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -17841,10 +17824,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c8504c2f-9d3f-4040-81af-a3c4314f221e")
+			(uuid "0e9498d0-8ff5-48ab-bbd2-25a670efd62e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "905c1a91-bde8-4482-a97f-852d236f0935")
@@ -17856,7 +17839,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "Net-(D23-A)")
@@ -17883,25 +17866,25 @@
 			(uuid "a252219c-3959-4b14-98e7-cf0f97024bbf")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "5dba483a-356e-4ee2-8753-b4130a5dc86a")
+			(uuid "a252219c-3959-4b14-98e7-cf0f97024bbf")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "fd697e48-3077-48bb-b918-f21226410ed9")
+			(uuid "a252219c-3959-4b14-98e7-cf0f97024bbf")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "33a4e453-f559-46cf-be03-4b7e65ef47b6")
+			(uuid "a252219c-3959-4b14-98e7-cf0f97024bbf")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -18252,7 +18235,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "f64464e3-b33e-41f1-b863-47a66b642fcd")
 		(at 118.444076 88.695638 -20)
@@ -18270,7 +18253,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at 0.000003 9.000001 340)
+			(at 0 9 340)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -18282,7 +18265,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18313,7 +18296,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c2c85d2-4504-4f83-87f4-d112ab594fb0")
+			(uuid "e7cfd0dd-39fc-45a7-a7ae-fd21d6e158f3")
 			(effects
 				(font
 					(size 1 1)
@@ -18327,8 +18310,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.8 -3.499999) (xy 3.800001 -1.65) (xy 3.299999 -1.150001) (xy -2.199999 -1.149999) (xy -2.199998 -3.899999)
-				(xy 2.200002 -3.900001) (xy 2.2 -3.500001)
+				(xy 3.799999 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.900001) (xy 2.2 -3.9)
+				(xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -18336,33 +18319,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "db6c75a0-1863-42e3-9b5a-9e639453af80")
+			(uuid "435abce3-0003-4709-a4e4-425146487352")
 		)
 		(fp_circle
-			(center -5.799999 2.75)
-			(end -5.299996 2.750003)
+			(center -5.8 2.75)
+			(end -5.3 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "617c664b-f7a9-42f1-bd97-c3b49027f3eb")
+			(uuid "8d91f0a3-2d31-4f33-9603-86784cdb3627")
 		)
 		(fp_circle
-			(center 5.799999 -2.75)
-			(end 6.399999 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "a2af2435-74b4-4090-95b1-0cebb4f8d9be")
+			(uuid "a91f2c62-18d5-4a15-a12a-0a9f3bebb8e0")
 		)
 		(fp_poly
 			(pts
-				(xy -7.999999 8) (xy 8 7.999999) (xy 7.999999 -8) (xy -8 -7.999999)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -18370,11 +18353,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b67e61cc-cf71-4397-b6d2-45306a79773d")
+			(uuid "edcb5a69-9642-407f-9134-bbe0d504ae46")
 		)
 		(fp_poly
 			(pts
-				(xy -6.75 -6.5) (xy 6.749999 -6.499999) (xy 6.75 6.5) (xy -6.749999 6.499999)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -18382,10 +18365,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "9aae79ab-7d78-46d0-95cc-f6d20b874cea")
+			(uuid "4673dd93-ef4a-4e3a-864d-8a31810a8f9d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 340)
+			(at 0.1 -5.6 340)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "98ee4a68-465d-40a8-9c5a-1e023c73a033")
@@ -18397,7 +18380,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.499998 2.650001 340)
+			(at -2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "Net-(D12-A)")
@@ -18407,7 +18390,7 @@
 			(uuid "3532306f-31af-4013-8228-6405e462dbbb")
 		)
 		(pad "2" smd rect
-			(at 2.5 2.650002 340)
+			(at 2.5 2.65 340)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 59 "Net-(RZ1-Pad15)")
@@ -18417,32 +18400,32 @@
 			(uuid "5bd74d50-8caa-4d21-9fb1-5fafcdb24394")
 		)
 		(pad "3" smd rect
-			(at -6.350001 -5.999997 340)
+			(at -6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
 			(uuid "2c5844d1-8a75-4d0b-bfa6-4a02bce35a7f")
 		)
 		(pad "3" smd rect
-			(at -6.350001 6 340)
+			(at -6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "067839d1-4db3-4a5d-8700-ca2b613a1f06")
+			(uuid "2c5844d1-8a75-4d0b-bfa6-4a02bce35a7f")
 		)
 		(pad "3" smd rect
-			(at 6.350001 -6 340)
+			(at 6.35 -6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "cf076e5a-ee43-4c89-88da-12a75cefe0e4")
+			(uuid "2c5844d1-8a75-4d0b-bfa6-4a02bce35a7f")
 		)
 		(pad "3" smd rect
-			(at 6.350001 5.999997 340)
+			(at 6.35 6 340)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "a43fc0b2-5026-43b4-8b95-d23a62e9c531")
+			(uuid "2c5844d1-8a75-4d0b-bfa6-4a02bce35a7f")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -19115,7 +19098,7 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+	(footprint "frustratedfly:CPG1316S01D02_mikeholscher_w_ref"
 		(layer "F.Cu")
 		(uuid "fcd12ca8-71fe-4685-a03e-7d88b75f23b9")
 		(at 201.290586 88.676911 20)
@@ -19133,7 +19116,7 @@
 			)
 		)
 		(property "Value" "CPG1316S"
-			(at -0.000002 9.000001 20)
+			(at 0 9 20)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(hide yes)
@@ -19145,7 +19128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf"
 			(at 0 0 20)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19176,7 +19159,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d36d75b5-3125-436f-b404-a3a1a031bc3e")
+			(uuid "d999ca34-e82d-40c8-9220-a4fb880d89c4")
 			(effects
 				(font
 					(size 1 1)
@@ -19190,8 +19173,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.800003 -3.499999) (xy 3.799999 -1.65) (xy 3.3 -1.15) (xy -2.200001 -1.15) (xy -2.199999 -3.9)
-				(xy 2.199999 -3.900002) (xy 2.2 -3.500001)
+				(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.900001) (xy 2.2 -3.5)
 			)
 			(stroke
 				(width 0.1)
@@ -19199,33 +19181,33 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "745511b5-0991-42e0-b4d2-a6b5f35ce9dd")
+			(uuid "9b28b774-7544-4b0c-a798-21ce9e9b7518")
 		)
 		(fp_circle
-			(center -5.799998 2.750001)
-			(end -5.299997 2.749999)
+			(center -5.8 2.75)
+			(end -5.299999 2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "d37613f9-da56-4eda-9ef0-cea4c091ca36")
+			(uuid "9338d86f-b602-4580-bece-09ec814f3622")
 		)
 		(fp_circle
-			(center 5.799998 -2.750001)
-			(end 6.399998 -2.75)
+			(center 5.8 -2.75)
+			(end 6.4 -2.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "2d6ea0fb-c45d-4761-8041-6086c3df4b36")
+			(uuid "9712b784-fbf6-4940-b21e-68fd1ee2ef0d")
 		)
 		(fp_poly
 			(pts
-				(xy -6.749999 -6.499999) (xy 6.750001 -6.5) (xy 6.749999 6.499999) (xy -6.750001 6.5)
+				(xy -6.75 -6.5) (xy 6.75 -6.5) (xy 6.75 6.5) (xy -6.75 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -19233,11 +19215,11 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "728d8b09-3148-480f-8f5e-e9b5a24c1584")
+			(uuid "52a810c0-e104-4771-a528-ec4ed00c2e2f")
 		)
 		(fp_poly
 			(pts
-				(xy -8.000001 7.999999) (xy 7.999999 8.000001) (xy 8.000001 -7.999999) (xy -7.999999 -8.000001)
+				(xy -8 8) (xy 8 8) (xy 8 -8) (xy -8 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -19245,10 +19227,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "29a1890f-9773-48c8-811d-6c73f234ad40")
+			(uuid "7d03a62a-d743-437b-9636-75730e58b66f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.100003 -5.599998 20)
+			(at 0.1 -5.6 20)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "495c5983-2684-4989-84d7-0b87639b44e6")
@@ -19260,7 +19242,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.5 2.650002 20)
+			(at -2.5 2.65 20)
 			(size 1.55 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "Net-(D24-A)")
@@ -19287,25 +19269,25 @@
 			(uuid "a93a03cc-7938-4680-b5b7-be9faa46b575")
 		)
 		(pad "3" smd rect
-			(at -6.35 5.999998 20)
+			(at -6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "09fd627a-eef5-41ed-af77-fa95696bd369")
+			(uuid "a93a03cc-7938-4680-b5b7-be9faa46b575")
 		)
 		(pad "3" smd rect
-			(at 6.35 -5.999998 20)
+			(at 6.35 -6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "5d84638e-e0d4-42e0-aafd-9cd8b498e6be")
+			(uuid "a93a03cc-7938-4680-b5b7-be9faa46b575")
 		)
 		(pad "3" smd rect
 			(at 6.35 6 20)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(thermal_bridge_angle 45)
-			(uuid "b5ce2284-d44d-480f-a870-582dfafdbc18")
+			(uuid "a93a03cc-7938-4680-b5b7-be9faa46b575")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/PG1316S--装配体.STEP"
@@ -19656,12 +19638,12 @@
 			)
 		)
 	)
-	(footprint "Keyboard_stuff:RP2040_Zero_cutout"
+	(footprint "frustratedfly:RP2040_Zero_cutout"
 		(layer "F.Cu")
 		(uuid "ff118d1f-1511-4ef1-825e-14e1cd48e564")
 		(at 159.859066 88.906289)
 		(property "Reference" "RZ1"
-			(at 0.000003 -7.499999 0)
+			(at 0 -7.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d4742614-0488-4fd0-a19f-843510ef69ad")
@@ -19713,165 +19695,159 @@
 		(path "/faad73a8-15b8-44b6-8cca-efc61c828157")
 		(sheetname "/")
 		(sheetfile "frustratedfly.kicad_sch")
-		(attr through_hole exclude_from_bom allow_missing_courtyard)
+		(attr through_hole)
 		(fp_line
-			(start -8.999999 10.749999)
-			(end -8.999999 -10.749999)
+			(start -9 10.75)
+			(end -9 -10.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7adb3baf-9869-4f22-8098-ff6a43d4f17c")
+			(uuid "5f8149c2-9b60-4197-a24a-19dedf233040")
 		)
 		(fp_line
-			(start -8.000001 -11.750003)
-			(end 8.000001 -11.75)
+			(start -8 -11.75)
+			(end 8 -11.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "389582dd-27cf-4721-a503-1ea86a8651d1")
+			(uuid "2740ba3e-361d-449d-82df-3ed6400ef327")
 		)
 		(fp_line
-			(start 8.000001 11.750003)
-			(end -8.000001 11.75)
+			(start 8 11.75)
+			(end -8 11.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "95092dd8-4420-4d76-bdc8-7131beb5f7c4")
+			(uuid "95ba4f13-6e5f-43df-a451-22d3576068e1")
 		)
 		(fp_line
-			(start 8.999999 -10.749999)
-			(end 8.999999 10.749999)
+			(start 9 -10.75)
+			(end 9 10.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4fca5062-3c7a-4d21-a1c7-c00636b71a2c")
+			(uuid "4c560614-57b0-48db-a576-5c9b62d96bba")
+		)
+		(fp_rect
+			(start -4.475 -12.9)
+			(end 4.475 -5.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "64a09fc5-101d-43c0-82af-c9c352cffde3")
+		)
+		(fp_rect
+			(start -2.9 2.55)
+			(end -6.3 6.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2d5c4692-331d-470b-8167-ca1abe986419")
+		)
+		(fp_rect
+			(start 2.9 2.55)
+			(end 6.3 6.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "5e830b49-6a15-4523-ae9c-b90b10219332")
 		)
 		(fp_arc
-			(start -8.999999 -10.749999)
-			(mid -8.707109 -11.45711)
-			(end -8.000001 -11.750003)
+			(start -9 -10.75)
+			(mid -8.707107 -11.457107)
+			(end -8 -11.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "232ef0c1-de75-451a-8c5e-e4174b766a90")
+			(uuid "d9e3c177-022f-4d75-bcc1-a2681ea52e2d")
 		)
 		(fp_arc
-			(start -8.000001 11.75)
+			(start -8 11.75)
 			(mid -8.707107 11.457107)
-			(end -8.999999 10.749999)
+			(end -9 10.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "339aceac-fff7-48df-9669-1cad0e13f0e7")
+			(uuid "a5eb954f-ffd8-477c-82f9-f2a51dbdc9f8")
 		)
 		(fp_arc
-			(start 8.000001 -11.75)
+			(start 8 -11.75)
 			(mid 8.707107 -11.457107)
-			(end 8.999999 -10.749999)
+			(end 9 -10.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0487c983-a427-468c-9b3b-6b4a5f1c4059")
+			(uuid "9e9174cf-c224-4422-ad39-dc4748878ab1")
 		)
 		(fp_arc
-			(start 8.999999 10.749999)
-			(mid 8.707109 11.45711)
-			(end 8.000001 11.750003)
+			(start 9 10.75)
+			(mid 8.707107 11.457107)
+			(end 8 11.75)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "73377e96-386d-4e6a-99d6-4f7e7ef03ba5")
+			(uuid "473b37f9-9e64-4807-89aa-60299b8a7f9f")
 		)
-		(fp_poly
-			(pts
-				(xy -4.475 -12.900001) (xy 4.475 -12.900001) (xy 4.474999 -5.399999) (xy -4.474998 -5.399998)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "71194ec4-a562-4686-9704-2f6ca1c57129")
-		)
-		(fp_poly
-			(pts
-				(xy -2.899998 2.55) (xy -6.3 2.549998) (xy -6.300001 6.749998) (xy -2.900002 6.750001)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "c5bf2b61-d6d0-473e-9781-aef74d7bafce")
-		)
-		(fp_poly
-			(pts
-				(xy 2.899998 2.55) (xy 6.299999 2.55) (xy 6.3 6.749998) (xy 2.900003 6.749999)
-			)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "90947c99-3686-431a-b36d-ff0409784dd7")
-		)
-		(fp_poly
-			(pts
-				(xy -3.500001 -3.500001) (xy 3.500001 -3.500001) (xy 3.500001 3.500001) (xy -3.500001 3.500001)
-			)
+		(fp_rect
+			(start -3.5 -3.5)
+			(end 3.5 3.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "e336a72e-6c68-4223-b85a-bf9788446a33")
+			(uuid "420e76b8-aa46-4c69-90f9-65021e10642b")
 		)
-		(fp_poly
-			(pts
-				(xy -1.575003 5.299999) (xy 1.575002 5.300001) (xy 1.575001 7.800001) (xy -1.575001 7.8)
-			)
+		(fp_rect
+			(start -1.575 5.3)
+			(end 1.575 7.8)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "4297ae66-8913-402d-9a3a-2829712fc00f")
+			(uuid "8cb6f4d0-62f8-4555-a718-da6faac748c2")
 		)
-		(fp_poly
-			(pts
-				(xy -9.5 -12.25) (xy 9.5 -12.249999) (xy 9.5 12.25) (xy -9.5 12.249999)
-			)
+		(fp_rect
+			(start -9.5 -12.25)
+			(end 9.5 12.25)
 			(stroke
 				(width 0.1)
 				(type dash)
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "2836b879-76d4-4ded-87ff-84e00adf96c0")
+			(uuid "b6c01af2-46c1-4792-963f-22bc2cb7e164")
 		)
 		(fp_text user "RESET"
-			(at 2.200001 2.3 0)
+			(at 2.2 2.3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "29a0c281-fc16-4253-9677-08a30a3a58c9")
@@ -19884,7 +19860,7 @@
 			)
 		)
 		(fp_text user "BOOT"
-			(at -6.500002 2.599998 0)
+			(at -6.5 2.6 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a727574d-1e42-4b76-b72d-77e608bfe332")
@@ -19897,7 +19873,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.400002 -2.700002 0)
+			(at -0.4 -2.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0510a061-2447-4493-ba12-0794dcd33e57")
@@ -19909,7 +19885,7 @@
 			)
 		)
 		(pad "0" connect oval
-			(at 10.189999 -10.159999)
+			(at 10.19 -10.16)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -19922,7 +19898,7 @@
 			(uuid "9a06492b-7246-42a0-9b7a-0d3098e68fd6")
 		)
 		(pad "1" connect oval
-			(at 10.2 -7.609999)
+			(at 10.2 -7.61)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -19935,7 +19911,7 @@
 			(uuid "eab468ce-c5f9-4cbd-abea-eda1336117e2")
 		)
 		(pad "2" connect oval
-			(at 10.200001 -5.070003)
+			(at 10.2 -5.07)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -19948,7 +19924,7 @@
 			(uuid "108b9371-96d2-4cf7-a919-587455973295")
 		)
 		(pad "3" connect oval
-			(at 10.2 -2.530001)
+			(at 10.2 -2.53)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -19974,7 +19950,7 @@
 			(uuid "c15b2175-215f-42b4-bd2e-8136733b7239")
 		)
 		(pad "4" connect oval
-			(at 10.199999 0.01)
+			(at 10.2 0.01)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -19987,7 +19963,7 @@
 			(uuid "1babd631-5452-42bc-9368-e2b436129c87")
 		)
 		(pad "5" connect oval
-			(at 10.200001 2.550002)
+			(at 10.2 2.55)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -20013,7 +19989,7 @@
 			(uuid "7e7cae56-ca1b-4b77-8629-539f92bb3473")
 		)
 		(pad "6" connect oval
-			(at 10.2 5.089999)
+			(at 10.2 5.09)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -20026,7 +20002,7 @@
 			(uuid "14d4e57d-c32b-44d3-9a8a-2dbc9fcd3b19")
 		)
 		(pad "7" connect oval
-			(at 10.2 7.630002)
+			(at 10.2 7.63)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -20039,7 +20015,7 @@
 			(uuid "8a7e4539-7379-4860-b40a-a5b343785ba8")
 		)
 		(pad "8" connect oval
-			(at 10.2 10.169999)
+			(at 10.2 10.17)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -20052,7 +20028,7 @@
 			(uuid "0d992f0f-60df-464d-992e-3f18d9aa1c3b")
 		)
 		(pad "9" connect oval
-			(at 5.080002 12.749998 270)
+			(at 5.08 12.75 270)
 			(size 4.19 1.8)
 			(drill
 				(offset -1.295 0)
@@ -20065,7 +20041,7 @@
 			(uuid "088fd845-4a1b-4d99-a125-69e682afb1c6")
 		)
 		(pad "10" connect oval
-			(at 2.539998 12.760001 270)
+			(at 2.54 12.76 270)
 			(size 4.19 1.8)
 			(drill
 				(offset -1.295 0)
@@ -20078,7 +20054,7 @@
 			(uuid "ed8fae67-116e-4cfe-a85b-a5d4929aac69")
 		)
 		(pad "11" connect oval
-			(at 0.009999 12.759999 270)
+			(at 0.01 12.76 270)
 			(size 4.19 1.8)
 			(drill
 				(offset -1.295 0)
@@ -20091,7 +20067,7 @@
 			(uuid "60d69f09-17a8-4b57-8f11-33b8e97d78de")
 		)
 		(pad "12" connect oval
-			(at -2.54 12.750001 270)
+			(at -2.54 12.75 270)
 			(size 4.19 1.8)
 			(drill
 				(offset -1.295 0)
@@ -20104,7 +20080,7 @@
 			(uuid "d018d969-d602-4f2e-8c20-ef4a22d8d542")
 		)
 		(pad "13" connect oval
-			(at -5.079997 12.750001 270)
+			(at -5.08 12.75 270)
 			(size 4.19 1.8)
 			(drill
 				(offset -1.295 0)
@@ -20117,7 +20093,7 @@
 			(uuid "ec2724f6-190c-42e6-b76e-c8e26902a43d")
 		)
 		(pad "14" connect oval
-			(at -10.199999 10.160001 180)
+			(at -10.2 10.16 180)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -20130,7 +20106,7 @@
 			(uuid "ed8728b0-c9af-47c9-b483-93b5407f4250")
 		)
 		(pad "15" connect oval
-			(at -10.199999 7.630001 180)
+			(at -10.2 7.63 180)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -20156,7 +20132,7 @@
 			(uuid "7bf7296c-f933-4d3f-9293-7579eb557195")
 		)
 		(pad "27" connect oval
-			(at -10.200002 2.539998 180)
+			(at -10.2 2.54 180)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -20169,7 +20145,7 @@
 			(uuid "c2421019-9787-46c4-b418-c502c1a5c8e8")
 		)
 		(pad "28" connect oval
-			(at -10.199997 0 180)
+			(at -10.2 0 180)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -20182,7 +20158,7 @@
 			(uuid "57e31160-8ed3-4021-96ad-22d223b92048")
 		)
 		(pad "29" connect oval
-			(at -10.199999 -2.540001 180)
+			(at -10.2 -2.54 180)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
@@ -20195,7 +20171,7 @@
 			(uuid "87ec6c3a-95b1-4f77-b495-1c51621ec55d")
 		)
 		(pad "GND" connect rect
-			(at -10.199999 -7.599999 180)
+			(at -10.2 -7.6 180)
 			(size 4.18 1.8)
 			(drill
 				(offset -1.29 0)
