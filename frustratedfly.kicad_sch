@@ -1,0 +1,9080 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3621421e-2aca-44f8-ab0c-86a7ca5baf43")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Keyboard_stuff:RP2040-Zero"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RZ"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RP2040-Zero"
+				(at 0 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Keyboard_stuff:RP2040_Zero_cutout"
+				(at -0.254 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RP2040-Zero_1_1"
+				(rectangle
+					(start -9 11.75)
+					(end 9 -11.75)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(rectangle
+					(start -4.5 12.7)
+					(end 4.5 5.2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -11.43 10.16 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -10.16 0)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -13.97 90)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -13.97 90)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -13.97 90)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -13.97 90)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 207.01 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "010e8c3a-4964-4a87-8a2e-695de31dbee4")
+	)
+	(junction
+		(at 207.01 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0411c883-8658-4cec-8aaf-87f8c6d89b4d")
+	)
+	(junction
+		(at 93.98 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09dedc20-1357-4054-909b-9e526fec2d4d")
+	)
+	(junction
+		(at 252.73 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10d2960f-388d-4c0f-a12b-652ccd32d9cf")
+	)
+	(junction
+		(at 184.15 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1231472e-c752-4bea-9f92-c1f42dbae888")
+	)
+	(junction
+		(at 153.67 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "129e45ae-8e1b-462f-80c4-a0790c01cdd0")
+	)
+	(junction
+		(at 48.26 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14f80570-8ca4-4005-87c5-3caf4095056b")
+	)
+	(junction
+		(at 139.7 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "176412e1-3961-4579-97a2-2f93af9c7f7e")
+	)
+	(junction
+		(at 210.82 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c95f0f4-39aa-48e7-9a8f-6c2919d48fff")
+	)
+	(junction
+		(at 139.7 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d5a2a41-9e1f-4548-9edb-ecfbf8dc62ae")
+	)
+	(junction
+		(at 74.93 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f64d86f-0419-418a-a7bb-9760748ef807")
+	)
+	(junction
+		(at 187.96 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35d8d30b-0930-466d-946a-0f5b27477e7b")
+	)
+	(junction
+		(at 229.87 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "360116a6-2508-4ace-bbe5-09fb7e30fc21")
+	)
+	(junction
+		(at 165.1 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a1f7f99-4e47-42c0-99b3-1209c61d8921")
+	)
+	(junction
+		(at 48.26 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c03c7cb-9729-4ad6-bfe6-751e5f72cb42")
+	)
+	(junction
+		(at 52.07 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c6a2df0-555d-4abe-82a2-d0fdfa8171c9")
+	)
+	(junction
+		(at 116.84 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dda82b8-71d8-4806-8bb3-33d16241ab1a")
+	)
+	(junction
+		(at 97.79 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eb4fdb7-59d4-49dc-ab83-02ed368e543d")
+	)
+	(junction
+		(at 187.96 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4730cdff-247a-4e9a-aceb-983b0b766438")
+	)
+	(junction
+		(at 184.15 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4857e118-143a-4602-a61b-7d46bc2016bf")
+	)
+	(junction
+		(at 275.59 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c662eda-7aec-44f8-964e-f7ecf9ebc248")
+	)
+	(junction
+		(at 229.87 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dd65488-b446-43cf-adf9-8b5f3d6cb611")
+	)
+	(junction
+		(at 165.1 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "560573c5-d14e-48fa-a969-c1d2570e7c52")
+	)
+	(junction
+		(at 229.87 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "575bd9d5-d8b3-454a-bb32-932b768cb9d1")
+	)
+	(junction
+		(at 233.68 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ad1264e-4293-4733-9b4c-a9bbe8554e1c")
+	)
+	(junction
+		(at 165.1 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bfbbc18-ad7c-46be-976a-e490cf528eec")
+	)
+	(junction
+		(at 50.8 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6107736e-7a7a-49e4-aecb-47f0e5d15ff6")
+	)
+	(junction
+		(at 233.68 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "633a1d6c-8e5c-4e09-bedf-9f3b4084f06e")
+	)
+	(junction
+		(at 210.82 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67bf9b68-0f37-49f5-9129-eee89eaf6a25")
+	)
+	(junction
+		(at 97.79 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b99ac05-7a23-409e-9cb3-a2aaf01aad3a")
+	)
+	(junction
+		(at 156.21 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7132d0fb-b629-4c7b-9ada-2d82f16459a2")
+	)
+	(junction
+		(at 184.15 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "716cd6b7-32b3-4c68-bcc3-1cd859978a42")
+	)
+	(junction
+		(at 207.01 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78256ebe-e9cc-4b5b-a11a-a7a5c024e151")
+	)
+	(junction
+		(at 165.1 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0bbd04-ecb1-4971-8c96-e75b1a5c5227")
+	)
+	(junction
+		(at 93.98 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84499b1c-47da-4f50-a04c-f7239661b8b7")
+	)
+	(junction
+		(at 52.07 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cb35aac-57a3-4f0f-a435-eead1ccb3cd0")
+	)
+	(junction
+		(at 120.65 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cb3d2df-4445-4578-8b02-00d95285da6f")
+	)
+	(junction
+		(at 74.93 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90c89372-6720-457a-bd34-5363100d9c6d")
+	)
+	(junction
+		(at 74.93 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9549b0ee-d70b-4163-86fe-5cc7e6c6e1d9")
+	)
+	(junction
+		(at 120.65 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a6c779b-31f8-4565-bd11-d66e190295aa")
+	)
+	(junction
+		(at 158.75 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a29a471a-cdcb-4ad3-b43d-4fca48a3a7f8")
+	)
+	(junction
+		(at 93.98 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a46dfc75-3745-4baf-9ec2-94a09ea4603a")
+	)
+	(junction
+		(at 151.13 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5b54b38-4432-4df4-8ddb-e49e9cc56407")
+	)
+	(junction
+		(at 116.84 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab1b8f02-189d-4d0d-b215-8a4d8b117aeb")
+	)
+	(junction
+		(at 139.7 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab50e9a3-21a3-49b4-8e7a-cb1a5b6ddb34")
+	)
+	(junction
+		(at 187.96 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aba92e73-4ebc-4947-931a-ca217720ad22")
+	)
+	(junction
+		(at 71.12 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acc02c15-f2f5-4da8-8891-d1d818b7ee1a")
+	)
+	(junction
+		(at 210.82 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeacbccc-3815-48b4-9ffc-25a6608b921f")
+	)
+	(junction
+		(at 120.65 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af529358-d039-428f-8a6a-62ffe878c7b9")
+	)
+	(junction
+		(at 275.59 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b07c84e5-edc4-45f9-80c3-ce25793a3533")
+	)
+	(junction
+		(at 120.65 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2a5e949-1829-4078-8ec6-6884be0a2e23")
+	)
+	(junction
+		(at 97.79 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdefc63b-cc4a-449f-9637-372dd7399311")
+	)
+	(junction
+		(at 116.84 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d299d87e-4372-487f-a3cf-2670a1dace8f")
+	)
+	(junction
+		(at 71.12 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e263b32f-7e12-4d52-bd49-458ad486c7bd")
+	)
+	(junction
+		(at 252.73 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e35577ba-07df-4f5e-b976-bf5c878da147")
+	)
+	(junction
+		(at 187.96 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef80afbb-1885-4410-ac22-8d3bea4e7f88")
+	)
+	(junction
+		(at 233.68 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6f43b9a-e447-4be3-9267-a98855068c14")
+	)
+	(junction
+		(at 97.79 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcf1fd27-d57f-46a3-96c0-f6f1e2f0f975")
+	)
+	(wire
+		(pts
+			(xy 97.79 134.62) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0071b8ff-553f-4cd7-a5d9-b6e5077b130d")
+	)
+	(wire
+		(pts
+			(xy 129.54 158.75) (xy 128.27 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f59f61-2b78-45d7-8475-ac4e8bdb8149")
+	)
+	(wire
+		(pts
+			(xy 48.26 132.08) (xy 48.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01465925-c02b-4d98-aebe-0923f3d63f36")
+	)
+	(wire
+		(pts
+			(xy 184.15 130.81) (xy 184.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c1a3d8-d690-47e6-98a3-deeab9794437")
+	)
+	(wire
+		(pts
+			(xy 59.69 116.84) (xy 60.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0315d2e1-2ca3-4daa-9121-33c6e21d9aeb")
+	)
+	(wire
+		(pts
+			(xy 172.72 158.75) (xy 173.99 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039404f6-b52e-4230-994e-6624742e4a69")
+	)
+	(wire
+		(pts
+			(xy 116.84 144.78) (xy 116.84 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05313f70-b2b5-4eac-b539-678312cf0014")
+	)
+	(wire
+		(pts
+			(xy 187.96 134.62) (xy 165.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0565f88b-0bbb-4b44-8d83-0eb15c11c53f")
+	)
+	(wire
+		(pts
+			(xy 52.07 132.08) (xy 52.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d9cdc0-e685-414b-b9b1-536dd2880b52")
+	)
+	(wire
+		(pts
+			(xy 97.79 162.56) (xy 120.65 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b8395d-e777-4ce7-b12f-99fb5ac9bb2f")
+	)
+	(wire
+		(pts
+			(xy 187.96 148.59) (xy 210.82 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a81b7be-6c78-4191-9438-a3846af4fccf")
+	)
+	(wire
+		(pts
+			(xy 165.1 144.78) (xy 165.1 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b12f75c-7809-47c5-bac8-18d88f7612b8")
+	)
+	(wire
+		(pts
+			(xy 29.21 134.62) (xy 52.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbd1921-8217-4f6f-9df3-16a9f1374872")
+	)
+	(wire
+		(pts
+			(xy 233.68 144.78) (xy 233.68 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1419416f-469a-452a-b537-7625648efcdb")
+	)
+	(wire
+		(pts
+			(xy 256.54 134.62) (xy 233.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188ad4da-8249-41f0-9315-b6978f88b7f7")
+	)
+	(wire
+		(pts
+			(xy 256.54 118.11) (xy 256.54 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19327c7e-d7b6-42cf-8e79-5b0e55aa1a2d")
+	)
+	(wire
+		(pts
+			(xy 153.67 148.59) (xy 165.1 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199699f2-a3f5-4ee0-9783-e04221a56c56")
+	)
+	(wire
+		(pts
+			(xy 218.44 130.81) (xy 219.71 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca2b9c4-cfaf-4d32-b884-f2cea3c77358")
+	)
+	(wire
+		(pts
+			(xy 151.13 86.36) (xy 151.13 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa4358e-ac45-4f64-9606-e09e3512225f")
+	)
+	(wire
+		(pts
+			(xy 210.82 148.59) (xy 233.68 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20555851-3f54-4f7a-bb02-086c526ca0ef")
+	)
+	(wire
+		(pts
+			(xy 116.84 116.84) (xy 116.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2382bab0-45e0-4ebf-9fee-eab6e6546a01")
+	)
+	(wire
+		(pts
+			(xy 105.41 132.08) (xy 106.68 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b2c40f-0e00-4722-b263-37031bdb4101")
+	)
+	(wire
+		(pts
+			(xy 82.55 116.84) (xy 83.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250d7feb-ef57-49f1-8f71-b28483bbdddd")
+	)
+	(wire
+		(pts
+			(xy 165.1 158.75) (xy 165.1 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2686d132-0cb1-430b-a8fa-3e30bf3ead30")
+	)
+	(wire
+		(pts
+			(xy 82.55 132.08) (xy 83.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c243da-f1ad-40ce-9445-3eab6e5219a1")
+	)
+	(wire
+		(pts
+			(xy 187.96 144.78) (xy 187.96 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27023b1b-f64c-47cd-9ad3-19276b9a37df")
+	)
+	(wire
+		(pts
+			(xy 229.87 130.81) (xy 229.87 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5e9d91-0e92-4958-bdf0-e623305f65e1")
+	)
+	(wire
+		(pts
+			(xy 74.93 134.62) (xy 97.79 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8adaaa-1fd4-49df-9895-8a9b5f7fa20b")
+	)
+	(wire
+		(pts
+			(xy 210.82 121.92) (xy 187.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8e74f6-452b-4092-9209-4362207423e2")
+	)
+	(wire
+		(pts
+			(xy 59.69 132.08) (xy 60.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e86031a-14bc-4b1b-a8c8-2b1c4b1368bf")
+	)
+	(wire
+		(pts
+			(xy 187.96 162.56) (xy 165.1 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f46b224-a2e6-4b4e-b813-1c7d14400ff1")
+	)
+	(wire
+		(pts
+			(xy 218.44 118.11) (xy 219.71 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f99aa0c-73a2-4204-b992-eabe54534287")
+	)
+	(wire
+		(pts
+			(xy 120.65 130.81) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff7aa4c-50b8-45e3-b949-8b83d63bd02f")
+	)
+	(wire
+		(pts
+			(xy 210.82 158.75) (xy 210.82 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30966cde-a758-4594-b278-10ddf373bc69")
+	)
+	(wire
+		(pts
+			(xy 120.65 162.56) (xy 151.13 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310c4fbf-81f1-4e97-805a-283c145bc465")
+	)
+	(wire
+		(pts
+			(xy 207.01 158.75) (xy 207.01 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352e953f-f83f-4335-8d77-8641c4ef03d4")
+	)
+	(wire
+		(pts
+			(xy 233.68 130.81) (xy 233.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369dd0a4-ccce-4c0b-be17-22294a56d2cd")
+	)
+	(wire
+		(pts
+			(xy 97.79 144.78) (xy 97.79 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a78af25-61ec-4093-81bf-176ceb30646c")
+	)
+	(wire
+		(pts
+			(xy 252.73 74.93) (xy 252.73 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6f54cb-b7b9-41de-b9d7-80f737e331a0")
+	)
+	(wire
+		(pts
+			(xy 229.87 144.78) (xy 229.87 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bdf57f6-5651-44ce-b383-125012026266")
+	)
+	(wire
+		(pts
+			(xy 275.59 130.81) (xy 275.59 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d3a2245-d222-4ba5-a2a5-3a93d6a75b81")
+	)
+	(wire
+		(pts
+			(xy 120.65 158.75) (xy 120.65 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db2f548-d016-4cca-898e-bf0e5962104e")
+	)
+	(wire
+		(pts
+			(xy 233.68 148.59) (xy 256.54 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd46610-4744-4128-aa5f-3f94d7b6f40d")
+	)
+	(wire
+		(pts
+			(xy 48.26 72.39) (xy 142.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e63547c-7610-486b-9986-674b9f6ed855")
+	)
+	(wire
+		(pts
+			(xy 165.1 130.81) (xy 165.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40879165-5f65-49da-893e-57a5125eb0bd")
+	)
+	(wire
+		(pts
+			(xy 139.7 116.84) (xy 139.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4212123f-2e46-4b17-a721-5b5ddda02b26")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 93.98 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4331ae62-87cf-4a9b-ad30-8a0e9fd2933c")
+	)
+	(wire
+		(pts
+			(xy 163.83 77.47) (xy 229.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b193d0-da5f-4d30-947e-d1211fc25cbd")
+	)
+	(wire
+		(pts
+			(xy 120.65 144.78) (xy 120.65 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fa314d-ff7d-43d6-9c0f-5e04031a97e8")
+	)
+	(wire
+		(pts
+			(xy 29.21 148.59) (xy 52.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45762ef4-3c6c-45ca-8925-7a0ed60de496")
+	)
+	(wire
+		(pts
+			(xy 165.1 148.59) (xy 187.96 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461913f0-3100-4c52-a5f5-1faa52844d0d")
+	)
+	(wire
+		(pts
+			(xy 195.58 158.75) (xy 196.85 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474e5c8a-11fb-4676-9a9b-228033a4771f")
+	)
+	(wire
+		(pts
+			(xy 264.16 144.78) (xy 265.43 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477af5a2-9368-46c0-ac8e-ae8ad43d9970")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9b60cd-4075-441d-9cc7-ab8f146acfb9")
+	)
+	(wire
+		(pts
+			(xy 184.15 144.78) (xy 184.15 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c11c1e7-53d2-47d3-a0ac-68db9e5ca18f")
+	)
+	(wire
+		(pts
+			(xy 187.96 118.11) (xy 187.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1f6554-53b1-46cf-8fd6-c2602ccff690")
+	)
+	(wire
+		(pts
+			(xy 187.96 121.92) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5130b0c9-ad72-47c9-96ec-e7239f6746a2")
+	)
+	(wire
+		(pts
+			(xy 82.55 158.75) (xy 83.82 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cf2c0f-daf4-4bda-8d63-4cca6db174e1")
+	)
+	(wire
+		(pts
+			(xy 264.16 118.11) (xy 265.43 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555fb1cb-a4a0-42ae-848f-8ab4039c75b3")
+	)
+	(wire
+		(pts
+			(xy 172.72 130.81) (xy 173.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b909c4-3e1f-44a3-afbb-fd8a28273b88")
+	)
+	(wire
+		(pts
+			(xy 172.72 144.78) (xy 173.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59253f8f-43ad-4ee2-9954-a06f0c7058d5")
+	)
+	(wire
+		(pts
+			(xy 74.93 148.59) (xy 97.79 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5dbed2-f78e-4839-8db8-c8686dea93d1")
+	)
+	(wire
+		(pts
+			(xy 184.15 118.11) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac6a7b3-ea94-4f79-a78d-af46a1fc28eb")
+	)
+	(wire
+		(pts
+			(xy 71.12 74.93) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c96cf48-6986-40f0-8923-9be38daf74f1")
+	)
+	(wire
+		(pts
+			(xy 229.87 118.11) (xy 229.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb342b8-9581-4222-b5fd-6d55fe187e28")
+	)
+	(wire
+		(pts
+			(xy 52.07 144.78) (xy 52.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b6bdf1-c5e1-4db1-9d67-a8e607ca629d")
+	)
+	(wire
+		(pts
+			(xy 52.07 148.59) (xy 74.93 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61fbef26-c9f2-4196-95e6-9bd8f221da33")
+	)
+	(wire
+		(pts
+			(xy 128.27 116.84) (xy 129.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631a9dc1-9c4c-4821-ad2b-9d98c0a295de")
+	)
+	(wire
+		(pts
+			(xy 50.8 116.84) (xy 50.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63751208-e7c9-4252-8028-d524fa729bef")
+	)
+	(wire
+		(pts
+			(xy 139.7 130.81) (xy 139.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647f6fa1-65b2-4362-b5c8-33f72220e27b")
+	)
+	(wire
+		(pts
+			(xy 128.27 130.81) (xy 129.54 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66899010-84f4-471d-b00f-dd9943098bb4")
+	)
+	(wire
+		(pts
+			(xy 29.21 132.08) (xy 29.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c5dd1f-45a5-448a-965c-3a9efe86237a")
+	)
+	(wire
+		(pts
+			(xy 74.93 132.08) (xy 74.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67524a9a-a56a-481e-a5e7-160f901b14ba")
+	)
+	(wire
+		(pts
+			(xy 52.07 134.62) (xy 74.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68811390-e7d5-4165-923e-03b106b55d90")
+	)
+	(wire
+		(pts
+			(xy 256.54 144.78) (xy 256.54 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69257fcb-503f-48ca-9053-e455327ab324")
+	)
+	(wire
+		(pts
+			(xy 97.79 158.75) (xy 97.79 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a42f632-67ba-48b1-baaa-d6d6c2368255")
+	)
+	(wire
+		(pts
+			(xy 195.58 130.81) (xy 196.85 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c276dfb-3089-4a24-9fd9-d0e281f6f243")
+	)
+	(wire
+		(pts
+			(xy 139.7 116.84) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701cc717-ee1b-4ca8-8a31-fba82d35756e")
+	)
+	(wire
+		(pts
+			(xy 275.59 118.11) (xy 275.59 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71de05c5-9fd9-4881-ba7e-5c52461324d7")
+	)
+	(wire
+		(pts
+			(xy 120.65 134.62) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a58ee6-bd67-4e82-84c0-06efccaeac96")
+	)
+	(wire
+		(pts
+			(xy 97.79 148.59) (xy 120.65 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df614a0-02c6-4c14-9ad7-9a784ceb3305")
+	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e21901a-e6d8-494e-b381-5dc7a0e01638")
+	)
+	(wire
+		(pts
+			(xy 48.26 116.84) (xy 48.26 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811caca0-0d3d-4e16-961d-a828fb17ffd4")
+	)
+	(wire
+		(pts
+			(xy 120.65 116.84) (xy 120.65 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81489f7d-9c7e-45e2-8d12-0834c21adee0")
+	)
+	(wire
+		(pts
+			(xy 105.41 144.78) (xy 106.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82116246-98a8-418e-bdad-baaaad647987")
+	)
+	(wire
+		(pts
+			(xy 256.54 121.92) (xy 233.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83625340-bd77-4430-83f1-4498eaa50fc6")
+	)
+	(wire
+		(pts
+			(xy 93.98 77.47) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d9f97d-1ef9-4fac-b85b-fd90850ffb47")
+	)
+	(wire
+		(pts
+			(xy 48.26 72.39) (xy 48.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8413ede1-3a1a-4385-8307-9f5bf5807ef2")
+	)
+	(wire
+		(pts
+			(xy 74.93 144.78) (xy 74.93 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86bc46c1-4d18-4d37-838c-df235b6876c1")
+	)
+	(wire
+		(pts
+			(xy 74.93 121.92) (xy 50.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c1e71c-4ef3-4e95-9625-2569c52156db")
+	)
+	(wire
+		(pts
+			(xy 97.79 132.08) (xy 97.79 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c6d0c0-1213-4b92-a36f-18eaa6ee9e86")
+	)
+	(wire
+		(pts
+			(xy 71.12 116.84) (xy 71.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87dc2190-9da3-4080-b043-41dcf41b0cd6")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 142.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f23553-5f63-4661-bbd1-4a48406ad49c")
+	)
+	(wire
+		(pts
+			(xy 156.21 134.62) (xy 165.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2cdbb8-e88c-48fd-953f-1cad23dc4bd1")
+	)
+	(wire
+		(pts
+			(xy 207.01 144.78) (xy 207.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9e635a-f731-4b06-a746-dd17d5598e7c")
+	)
+	(wire
+		(pts
+			(xy 29.21 116.84) (xy 29.21 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cd998f-7860-4092-8158-765c71c770a9")
+	)
+	(wire
+		(pts
+			(xy 252.73 130.81) (xy 252.73 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92278550-0fa6-4378-b5f4-0745d6e3f44b")
+	)
+	(wire
+		(pts
+			(xy 52.07 116.84) (xy 50.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936b3de7-8b9a-4040-a691-9f5a8bd9b164")
+	)
+	(wire
+		(pts
+			(xy 120.65 148.59) (xy 153.67 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9501c51f-747f-49c0-9988-96424a396eb4")
+	)
+	(wire
+		(pts
+			(xy 233.68 134.62) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ec8a6e-e954-4830-b96a-4129bbb81c99")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 116.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97790bfc-0e82-47d8-9c1f-685972aec59b")
+	)
+	(wire
+		(pts
+			(xy 210.82 144.78) (xy 210.82 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa5fd2d-7fec-4728-809e-e633cbaa978c")
+	)
+	(wire
+		(pts
+			(xy 36.83 116.84) (xy 38.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c79430d-ac56-4250-98d6-e5e7c8ddf75d")
+	)
+	(wire
+		(pts
+			(xy 187.96 158.75) (xy 187.96 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0666372-9c5f-4bfc-8afd-9b0ec3a2f6e1")
+	)
+	(wire
+		(pts
+			(xy 93.98 144.78) (xy 93.98 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fbb3a7-090f-4d78-9987-219632f490ab")
+	)
+	(wire
+		(pts
+			(xy 71.12 132.08) (xy 71.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2032b14-bd64-4061-a2e7-9bb7c4fc5e72")
+	)
+	(wire
+		(pts
+			(xy 195.58 144.78) (xy 196.85 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32d7b98-ab75-416f-b967-b00170ea7a76")
+	)
+	(wire
+		(pts
+			(xy 74.93 162.56) (xy 97.79 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4cbf659-83b4-4230-8ad9-2f04f3bb46af")
+	)
+	(wire
+		(pts
+			(xy 163.83 80.01) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a556c969-1da3-4269-b228-7af6f1b3c2ac")
+	)
+	(wire
+		(pts
+			(xy 74.93 158.75) (xy 74.93 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b76b9c-8f2a-4b3c-bedf-954e0abdd9b3")
+	)
+	(wire
+		(pts
+			(xy 229.87 77.47) (xy 229.87 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d9eb92-711e-4b22-93a2-26577e077c82")
+	)
+	(wire
+		(pts
+			(xy 241.3 118.11) (xy 242.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a859750c-824f-4277-8f47-33fae2543950")
+	)
+	(wire
+		(pts
+			(xy 207.01 130.81) (xy 207.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa73cad6-e1a3-4b36-936a-3efe195bae0b")
+	)
+	(wire
+		(pts
+			(xy 36.83 144.78) (xy 38.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab275cfc-0542-41ae-a144-84363364177f")
+	)
+	(wire
+		(pts
+			(xy 233.68 121.92) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab735fe6-896d-42c7-a0f4-dbc570ecafa2")
+	)
+	(wire
+		(pts
+			(xy 71.12 74.93) (xy 142.24 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac35f725-0bbb-4b20-9288-1d3e5c14d5bc")
+	)
+	(wire
+		(pts
+			(xy 264.16 130.81) (xy 265.43 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b122d1ed-1cd3-430b-bbce-f153969c0b2b")
+	)
+	(wire
+		(pts
+			(xy 156.21 86.36) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d39f55-ccea-4b41-aa11-64715c824266")
+	)
+	(wire
+		(pts
+			(xy 218.44 144.78) (xy 219.71 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6437649-a4f2-48ca-9b08-03b8451f7240")
+	)
+	(wire
+		(pts
+			(xy 218.44 158.75) (xy 219.71 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d575e2-62d9-4ff1-bf57-943204141afa")
+	)
+	(wire
+		(pts
+			(xy 256.54 130.81) (xy 256.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4c7a90-cce6-4da7-965f-9748919e7a39")
+	)
+	(wire
+		(pts
+			(xy 29.21 121.92) (xy 50.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7a4e5b-8768-4d30-aec9-ecd99e4b83c9")
+	)
+	(wire
+		(pts
+			(xy 151.13 162.56) (xy 165.1 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9a98d0-86dc-4ba5-a628-b43862160ec5")
+	)
+	(wire
+		(pts
+			(xy 163.83 72.39) (xy 275.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf418d14-9cdc-4a17-9b99-704fb2380a98")
+	)
+	(wire
+		(pts
+			(xy 210.82 162.56) (xy 187.96 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00d31a6-54e5-4d80-b38a-cc4ffb58c365")
+	)
+	(wire
+		(pts
+			(xy 252.73 118.11) (xy 252.73 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0644678-e9b4-479a-83ed-f56b207fb6dc")
+	)
+	(wire
+		(pts
+			(xy 116.84 132.08) (xy 116.84 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0748816-680d-4850-b2b6-eecb162eac63")
+	)
+	(wire
+		(pts
+			(xy 241.3 144.78) (xy 242.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3940957-f286-4141-8e99-f253dad1deef")
+	)
+	(wire
+		(pts
+			(xy 29.21 144.78) (xy 29.21 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51548fa-cc6c-4b0b-9262-e3c5eee606e5")
+	)
+	(wire
+		(pts
+			(xy 210.82 134.62) (xy 187.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5569636-ea30-4348-a827-c83a46b1ded3")
+	)
+	(wire
+		(pts
+			(xy 74.93 116.84) (xy 74.93 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5681f34-a864-478e-8e6e-4928d3583a25")
+	)
+	(wire
+		(pts
+			(xy 184.15 158.75) (xy 184.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c4a37c-2566-4b23-86d4-cba2165ac610")
+	)
+	(wire
+		(pts
+			(xy 105.41 158.75) (xy 106.68 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91768dd-119d-4a88-b7b5-5bd3dc354299")
+	)
+	(wire
+		(pts
+			(xy 163.83 74.93) (xy 252.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca352ea6-4e78-441a-b9f2-4029f61fb436")
+	)
+	(wire
+		(pts
+			(xy 97.79 116.84) (xy 97.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3961bd-b5ed-4c9d-b90e-7ae01ab1f555")
+	)
+	(wire
+		(pts
+			(xy 139.7 144.78) (xy 139.7 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd51aa16-060a-475a-a86d-be9745cc2302")
+	)
+	(wire
+		(pts
+			(xy 172.72 118.11) (xy 173.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06bb1e7-7409-4320-a997-f7cac4e6eeba")
+	)
+	(wire
+		(pts
+			(xy 120.65 121.92) (xy 158.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cc1183-6ccd-4f91-ac2b-af06c55c8eb3")
+	)
+	(wire
+		(pts
+			(xy 158.75 86.36) (xy 158.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ff4f37-6c61-470c-b9b9-4abbf21547e8")
+	)
+	(wire
+		(pts
+			(xy 153.67 86.36) (xy 153.67 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d453f48e-626b-4c9c-9695-358e4f71c6f8")
+	)
+	(wire
+		(pts
+			(xy 210.82 118.11) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5035cb9-2574-41a7-8fc8-cd4ed7246ea0")
+	)
+	(wire
+		(pts
+			(xy 210.82 130.81) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85933cd-668d-4f28-b3a0-4d6ff4b9ecc2")
+	)
+	(wire
+		(pts
+			(xy 97.79 121.92) (xy 74.93 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf80658-de2a-47d9-8207-7679572b8397")
+	)
+	(wire
+		(pts
+			(xy 93.98 77.47) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd370db8-1ba4-45ca-8330-c91cc0463e02")
+	)
+	(wire
+		(pts
+			(xy 233.68 118.11) (xy 233.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea798fd-9c92-48e1-b3f3-4d3ed5072d1c")
+	)
+	(wire
+		(pts
+			(xy 187.96 130.81) (xy 187.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df552076-e8e0-48f6-b3e8-a67766447ec6")
+	)
+	(wire
+		(pts
+			(xy 275.59 72.39) (xy 275.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f31866-6e98-455c-9ba1-2dcbb4e7af51")
+	)
+	(wire
+		(pts
+			(xy 158.75 121.92) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3aed029-9db0-4e4a-97a3-e8c2a68dde55")
+	)
+	(wire
+		(pts
+			(xy 207.01 118.11) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c22ff0-724f-4e69-bc22-76e5207b9f32")
+	)
+	(wire
+		(pts
+			(xy 195.58 118.11) (xy 196.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e592a3c1-be55-4162-a861-f8af5e8b3112")
+	)
+	(wire
+		(pts
+			(xy 93.98 132.08) (xy 93.98 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cd68e1-747e-438e-9faa-62fd0539a0b5")
+	)
+	(wire
+		(pts
+			(xy 105.41 116.84) (xy 106.68 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7789125-2226-47eb-8937-aff523661aee")
+	)
+	(wire
+		(pts
+			(xy 82.55 144.78) (xy 83.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8677fa3-2058-4039-87be-8e749de21963")
+	)
+	(wire
+		(pts
+			(xy 241.3 130.81) (xy 242.57 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a38221-3990-457b-bbc3-8b5ebdc0a5eb")
+	)
+	(wire
+		(pts
+			(xy 128.27 144.78) (xy 129.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcc2a06-beec-494a-938a-90ad454bc6c1")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01d48f1-933b-45f3-8993-c82a71a26796")
+	)
+	(wire
+		(pts
+			(xy 36.83 132.08) (xy 38.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d398ef-0d0c-418d-8a27-2cd990088dac")
+	)
+	(wire
+		(pts
+			(xy 59.69 144.78) (xy 60.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fd6bb5-a630-4586-ba49-0a26a9c21a88")
+	)
+	(wire
+		(pts
+			(xy 120.65 121.92) (xy 97.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd054a6b-70d8-4ada-9b74-7d8c38fbce03")
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 101.6 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "085da2e1-4577-4d8a-ba0e-ff61762bed46")
+		(property "Reference" "D11"
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57edc6b6-97b1-41c2-a4b4-800e9b6ff297")
+		)
+		(pin "2"
+			(uuid "5d9d192a-f616-4d5a-a0f4-3f5fbc44ede0")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 224.79 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b326a36-d57e-4016-9ae6-0b706ba8f757")
+		(property "Reference" "SW30"
+			(at 224.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 224.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 224.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 224.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 224.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 224.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b353e27-5203-4d93-bce0-49b13b203f39")
+		)
+		(pin "2"
+			(uuid "372d3334-5142-481e-bee4-e7ce5cf8fffd")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 224.79 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e6aec8f-6d10-41d5-9d08-5697a938d494")
+		(property "Reference" "SW28"
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 224.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 224.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 224.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 224.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 224.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9249f794-2641-45c7-a64f-0a3b8c80a87e")
+		)
+		(pin "1"
+			(uuid "299a929a-5710-40b9-9d13-c06f9dcf1401")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e91dcb6-264f-4d74-a36c-5bc19603543f")
+		(property "Reference" "SW9"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1852de7f-ab65-4bd8-9e62-1ef0c28dd457")
+		)
+		(pin "1"
+			(uuid "78ebaf78-ddae-44d5-a6a9-b43ffe4f6bc9")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 270.51 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10987d38-c587-48cb-907f-eb6688d98beb")
+		(property "Reference" "SW34"
+			(at 270.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 270.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 270.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 270.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 270.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 270.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8e96afe-0c25-4ac4-af9f-750b815000f1")
+		)
+		(pin "2"
+			(uuid "42065d46-655f-4a5a-97fe-777f44d3d036")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 124.46 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1308670b-6e00-4d7e-a443-e7a0e9420359")
+		(property "Reference" "D18"
+			(at 124.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 124.46 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "631b0d08-d7a0-4e2b-8533-1556dd664c2c")
+		)
+		(pin "2"
+			(uuid "91e0cd36-fa52-4126-9e72-6ced1a076a68")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 33.02 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "131507e5-2cfb-4888-ac73-44899d15c010")
+		(property "Reference" "D3"
+			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 33.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "967bfd6f-2edb-4723-a710-4803ffd2609b")
+		)
+		(pin "1"
+			(uuid "80ef2e5c-78c0-4520-8e3b-182e7f2f7056")
+		)
+		(instances
+			(project ""
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 260.35 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "151510bd-cd0d-497a-84bd-0afd3cae13eb")
+		(property "Reference" "D34"
+			(at 260.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 260.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe79d8e0-55f3-40fd-b21b-ebc1d28503ee")
+		)
+		(pin "2"
+			(uuid "2b957a7f-7686-41e3-94f9-e82e0f792ee9")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 191.77 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "162a1871-9b9d-457f-b6f3-21ee503d28bc")
+		(property "Reference" "D24"
+			(at 191.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 191.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 191.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 191.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 191.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 191.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d318ceb7-c93d-4f48-91bd-1fa788f4e8cf")
+		)
+		(pin "1"
+			(uuid "a5479989-4f83-45ae-bf65-ccda054a2772")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 214.63 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17f2c405-f6e0-4031-a082-ae51ba2a082b")
+		(property "Reference" "D30"
+			(at 214.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 214.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d85302c-ef02-4ccc-9fd9-e8334aa66957")
+		)
+		(pin "2"
+			(uuid "f6f4456f-9849-4cc7-a1ee-b51f25d62ef0")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 43.18 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cd3494e-0035-4deb-b6c2-03be2728c2cd")
+		(property "Reference" "SW3"
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 43.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 43.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 43.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47074298-067f-4c30-a02b-6dca026e2d54")
+		)
+		(pin "1"
+			(uuid "cfe674a0-521f-46b3-820e-f4158bc29289")
+		)
+		(instances
+			(project ""
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 270.51 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ce248b0-1de3-47ac-8af4-020fdb5842b2")
+		(property "Reference" "SW35"
+			(at 270.51 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 270.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 270.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 270.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 270.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 270.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2ea4309-b319-4377-ac3b-00ebffa08cd2")
+		)
+		(pin "1"
+			(uuid "83f10064-04a5-434d-85cc-2133933f9a78")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 247.65 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d3cc275-1246-4eec-ab5f-f2cb43de2a52")
+		(property "Reference" "SW31"
+			(at 247.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 247.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 247.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 247.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af31260f-b7c4-4966-84ec-d9abca278969")
+		)
+		(pin "1"
+			(uuid "4b8710e4-f1a3-492c-9130-0f336fee76be")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 260.35 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "210d5735-7b1d-46f3-96b7-26c351a89bee")
+		(property "Reference" "D35"
+			(at 260.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 260.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 260.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 260.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 260.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 260.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 260.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c3b74ec-b6e0-4125-8402-b9f48e7a6d49")
+		)
+		(pin "1"
+			(uuid "1a32ecb9-4019-47c0-bdb5-579c00ababdc")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 101.6 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21271bed-239b-4db2-aa78-24782040d1a7")
+		(property "Reference" "D14"
+			(at 101.6 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 101.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 101.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 101.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 101.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 101.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 101.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89a90a45-b46a-4c50-8cd4-d0b010e126fd")
+		)
+		(pin "2"
+			(uuid "82920a22-1f02-40e3-abd9-bec4794e7416")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 270.51 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21be98cd-75df-4b8e-8ae4-08e1fecdd687")
+		(property "Reference" "SW36"
+			(at 270.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 270.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 270.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "610b9276-e2c0-4e67-9388-5d88987b96ab")
+		)
+		(pin "1"
+			(uuid "63336240-8a31-44ad-b5a0-9797e41ffe10")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 179.07 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "256e2e9b-dd9d-49c0-ab38-a465444f6b89")
+		(property "Reference" "SW22"
+			(at 179.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 179.07 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 179.07 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 179.07 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 179.07 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 179.07 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "604968a1-065e-4f4c-8157-c23137b1965b")
+		)
+		(pin "1"
+			(uuid "aefc0431-691e-4dca-8f76-0bc490717caa")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2799f9a1-5a4b-4d6e-8a6a-478f48977ad0")
+		(property "Reference" "SW11"
+			(at 111.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc4a4729-ec98-4c94-86b2-16e81f42069d")
+		)
+		(pin "2"
+			(uuid "fceb2ee0-04b0-40a2-887f-476a769b5a4c")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c287f58-75ac-4c48-921d-56e9331b0b18")
+		(property "Reference" "SW7"
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 88.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b0d1e49-ae5e-430c-9158-783e904d16b2")
+		)
+		(pin "1"
+			(uuid "aa60843f-3a77-4896-913b-b52a66bdb31d")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 224.79 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ec93161-b6d1-455e-9ef4-f79b268665b7")
+		(property "Reference" "SW27"
+			(at 224.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "320a86d2-5383-4bfa-b69d-1329418466f5")
+		)
+		(pin "1"
+			(uuid "5ede3ef4-d922-425e-b2ff-c8c5046af0c4")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 191.77 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35fc747c-8e69-4e4b-9106-e50ba4a697b6")
+		(property "Reference" "D23"
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "533b4b46-c439-40fd-a5a3-fc06a92bf95a")
+		)
+		(pin "2"
+			(uuid "95514e62-fe76-42a0-b8cc-73b71f06de37")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 134.62 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fff6ecc-5db8-4018-89b8-e44af719474d")
+		(property "Reference" "SW17"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8640341-e029-4eb2-8ce3-277d019f1ed1")
+		)
+		(pin "1"
+			(uuid "5258de32-4f47-498e-a0b3-48d66565f785")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 260.35 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "418fedb1-0af1-4a75-9269-fe907ed40764")
+		(property "Reference" "D36"
+			(at 260.35 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 260.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 260.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 260.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 260.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 260.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 260.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75111a79-e021-497e-b117-47fb81bf6969")
+		)
+		(pin "2"
+			(uuid "78c86b57-cbc5-4f69-a397-d83717c70096")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 33.02 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46a5bca1-2a7c-4d43-b5a2-6eb1c0b9b64d")
+		(property "Reference" "D2"
+			(at 33.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 33.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcfe8142-fb64-4995-87b6-cddd00bb69e6")
+		)
+		(pin "2"
+			(uuid "6f74b276-18b7-42db-afec-2f25d0501201")
+		)
+		(instances
+			(project ""
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 55.88 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ca5ffb0-5c28-43ed-9f51-3783fd028507")
+		(property "Reference" "D4"
+			(at 55.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 55.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 55.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 55.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 55.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 55.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13740e75-87f0-4d07-8256-f6d03b456966")
+		)
+		(pin "2"
+			(uuid "4d701bd7-d5b0-4074-8203-27576df4d3f7")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 66.04 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5240d27a-b558-4979-a3a4-2e574bb73334")
+		(property "Reference" "SW5"
+			(at 66.04 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 66.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 66.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 66.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f80493d-3cf3-471c-96ab-552a354d30d6")
+		)
+		(pin "2"
+			(uuid "bc3af294-7ae8-49cc-ab8f-c648077f3136")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 66.04 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5de247cf-165b-4710-bdde-14ea7d4f1def")
+		(property "Reference" "SW6"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 66.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 66.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 66.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 66.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 66.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94f359d7-f640-4c5f-bbfb-d2f8d1483fd5")
+		)
+		(pin "1"
+			(uuid "77b0d70d-492b-45f1-b610-d317f8940061")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 78.74 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "664ff40f-c7a3-421f-b7c9-5e530fb057cf")
+		(property "Reference" "D9"
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 78.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e81cc73c-48a3-48be-ab27-32a9b0478698")
+		)
+		(pin "1"
+			(uuid "b7ec1fb6-1dd4-48f3-8447-ec196279ce35")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 179.07 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6678d7bc-745d-433b-87c9-bff7e1533d4e")
+		(property "Reference" "SW21"
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 179.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 179.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 179.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 179.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 179.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d050c867-fbd3-47f7-9eee-a71534ee20db")
+		)
+		(pin "1"
+			(uuid "2aeb0e7b-8382-412f-a573-eb030ce432c7")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 237.49 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc20f68-cc33-4663-b52c-7d471a87250c")
+		(property "Reference" "D33"
+			(at 237.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 237.49 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b575d67-6695-4228-bc24-0219f41edbf6")
+		)
+		(pin "2"
+			(uuid "2e961f48-05db-45b1-8efc-97ce9eaaa457")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 191.77 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dd39f70-9994-4cee-8aae-a55e0dad11d0")
+		(property "Reference" "D26"
+			(at 191.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 191.77 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 191.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 191.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 191.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 191.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0e553ac-6ff1-4b64-8556-4c0f2033508a")
+		)
+		(pin "2"
+			(uuid "bb616d9e-61d2-41ba-8702-430e26ac1e1b")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 168.91 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ee0c44d-3df1-480e-b729-f37190a14f18")
+		(property "Reference" "D20"
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 168.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af20d9df-787e-432f-8bf0-7ecbbc7e69ea")
+		)
+		(pin "2"
+			(uuid "f9a2dad3-c6f5-49e1-b1a9-cff2e03406ff")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 101.6 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70edaabc-e05c-43aa-9215-d8a67cf737b8")
+		(property "Reference" "D13"
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 101.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eae6a9f-8d49-4fad-b066-783c9956f36a")
+		)
+		(pin "2"
+			(uuid "2e3749b7-1c68-44e6-9f55-ad1fbacb96da")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 134.62 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73233328-7d56-461f-9721-7a7e9e59d441")
+		(property "Reference" "SW18"
+			(at 134.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd80be1d-75c7-491d-8338-cad8ee33a2a1")
+		)
+		(pin "1"
+			(uuid "b1b2a353-c0df-4964-9c1e-cd6c38809eb8")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 201.93 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "749a0893-5630-479d-861c-a41e4ad6d497")
+		(property "Reference" "SW26"
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 201.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 201.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 201.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 201.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 201.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71ccd518-ef31-469b-8728-2a22ed883357")
+		)
+		(pin "2"
+			(uuid "a01492a6-1fe1-4995-88fc-cd630507c42a")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 168.91 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77bf200d-a687-4348-b24c-3582aa832867")
+		(property "Reference" "D19"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 168.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "722a592c-2c04-4ba4-95f8-3ba3eaaef6ea")
+		)
+		(pin "2"
+			(uuid "37ce324c-30ee-41ce-afb2-f8c7ff46a567")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 179.07 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "813096aa-bc04-46cc-89c0-b325556e2c37")
+		(property "Reference" "SW20"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 179.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 179.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "084dbd25-2a64-4f23-8a7c-021b32bbdc3a")
+		)
+		(pin "2"
+			(uuid "9ad0d9ec-a04f-4b0f-bf30-264d4b4c021f")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82a9ba77-9043-44a8-b9f0-eb341d7dd52c")
+		(property "Reference" "SW12"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "225309f4-c3de-454b-b1df-e3441bacf0d8")
+		)
+		(pin "1"
+			(uuid "f20e53b8-aa32-44b8-809a-1b3369373166")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 237.49 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85a24b02-2045-49ed-82b7-95c044fd6bbe")
+		(property "Reference" "D31"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 237.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47c10d5e-05a6-40d8-8f54-b4f1474b82da")
+		)
+		(pin "1"
+			(uuid "a6235140-a835-4d92-9794-762a851fe3cf")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 124.46 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c3eeab1-cb87-4238-99dc-ccac2df4cc0b")
+		(property "Reference" "D16"
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5875128-6bca-4524-bda1-645f45f5e6cd")
+		)
+		(pin "2"
+			(uuid "f28de248-ad6a-4aa1-af5a-7bdcab130ee0")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 66.04 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "920e8f20-4325-4051-873a-db991d835084")
+		(property "Reference" "SW4"
+			(at 66.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebb216a8-ad10-48b1-a566-6bd5c0fcdc68")
+		)
+		(pin "1"
+			(uuid "1c244537-1c57-4afd-bd36-22317ccfedb1")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95c45822-ef4b-40d4-bfbb-b66ad517a4d1")
+		(property "Reference" "SW8"
+			(at 88.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca8f558a-8da2-43f2-aeaf-82874c0be351")
+		)
+		(pin "2"
+			(uuid "9b9a5492-265f-4225-839d-914a5a2af065")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 55.88 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97a93005-0dff-48e7-b38f-5a7dd02370f5")
+		(property "Reference" "D6"
+			(at 55.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 55.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36c3b7c3-08b4-4368-9373-9c41247d2a2c")
+		)
+		(pin "1"
+			(uuid "ec7cdc5f-df7b-4bcb-9703-04628f48afdc")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 43.18 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a68da2c-873b-4336-9d2d-3e4f5055ef71")
+		(property "Reference" "SW1"
+			(at 43.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 43.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 43.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 43.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d977a59-c7bd-49d4-ba67-420cdd340533")
+		)
+		(pin "1"
+			(uuid "180eef73-5ae9-4c8a-a3c6-ae2d5339a926")
+		)
+		(instances
+			(project ""
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f77135e-3938-419d-ba5a-7b6dc1019773")
+		(property "Reference" "SW13"
+			(at 111.76 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c209bdfb-542d-4a05-9a9c-7687970d25cb")
+		)
+		(pin "1"
+			(uuid "f0ca1c9b-fb37-4aea-bac3-16e166eb01f9")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 43.18 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3a10baf-8297-41d1-81f0-21dc364ec89c")
+		(property "Reference" "SW2"
+			(at 43.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5873f199-b599-44c5-bded-839cf90caa4d")
+		)
+		(pin "2"
+			(uuid "116e2d34-6156-46b0-b5bb-b4488f6506b8")
+		)
+		(instances
+			(project ""
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8c3cf09-27b7-492d-8ff8-055ed23972cd")
+		(property "Reference" "SW14"
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 111.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a8df0a1-4f54-470b-927f-28ee1bb731a6")
+		)
+		(pin "2"
+			(uuid "ba55f3ab-6cc1-4cef-9238-dc9dccad9659")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 214.63 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa175197-dd18-443d-b2c5-80ca12f5d93b")
+		(property "Reference" "D29"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 214.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 214.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 214.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 214.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 214.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d420e3aa-e3f0-4478-b262-3c975116edf5")
+		)
+		(pin "2"
+			(uuid "ee01b1f6-0896-4e0b-ae98-e3ec34c535d9")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 201.93 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace00a21-bbcb-4296-a352-80c1e015b701")
+		(property "Reference" "SW24"
+			(at 201.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4613a775-4950-4465-8ad7-8d5669a44f07")
+		)
+		(pin "1"
+			(uuid "fe16d4b7-51b0-4e60-9d70-9f28df186ed1")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 237.49 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4269bc1-bd98-4196-ab34-491424813f5c")
+		(property "Reference" "D32"
+			(at 237.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 237.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92ac9cc6-30ab-416b-8c8d-7759b2015e28")
+		)
+		(pin "2"
+			(uuid "7705d46f-a6ad-46b3-967b-da5a928ed7b0")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 78.74 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b564a480-b6cd-4faf-8088-dc244226cc5f")
+		(property "Reference" "D7"
+			(at 78.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 78.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 78.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 78.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 78.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 78.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72be92b6-1015-4108-bab6-83069b1619b4")
+		)
+		(pin "2"
+			(uuid "7bf32add-2ce4-46c4-899c-c0ada7d60a01")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 179.07 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be4d2c1d-2532-40a8-a631-4c7f599200c8")
+		(property "Reference" "SW19"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16709eaa-2ad0-414c-94a0-302a4f94d5cf")
+		)
+		(pin "1"
+			(uuid "7556ee13-58dd-46ed-9deb-5a0991f824bc")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 78.74 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf284f52-c081-4d5e-931f-6ad051c172d5")
+		(property "Reference" "D8"
+			(at 78.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 78.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca1827c1-179f-4ca8-bc3d-735a29f2c59e")
+		)
+		(pin "2"
+			(uuid "8d7631bf-1f6c-40b4-9f1e-1570736d40d9")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 134.62 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c57736f0-504c-4cec-8414-847cd8dd07ef")
+		(property "Reference" "SW15"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad1ec87b-5ad1-46a3-b731-d7ca726839bd")
+		)
+		(pin "1"
+			(uuid "86ba95dc-afba-46c5-9f7e-a6440071019b")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 134.62 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccf9091b-d596-4a10-b6f6-81b1d94045b5")
+		(property "Reference" "SW16"
+			(at 134.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 134.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 134.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 134.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 134.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 134.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77514e1b-2a67-4ab5-9075-d7305e27924b")
+		)
+		(pin "1"
+			(uuid "504743c0-d322-4ac2-ab2a-76ac28cce208")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 224.79 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd5be89e-92f6-4f0f-a71f-109d4efd7290")
+		(property "Reference" "SW29"
+			(at 224.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 224.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 224.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 224.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 224.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 224.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8760faa3-ebad-4242-b208-6cdd14a10074")
+		)
+		(pin "1"
+			(uuid "d2f9cbd7-f5cf-4720-b6bf-cf5d25dfdd73")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 247.65 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d13b7f7a-4203-4c71-928a-81a5512798b9")
+		(property "Reference" "SW33"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 247.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 247.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebdbf821-f8c7-4d97-92d4-2f3470e41f02")
+		)
+		(pin "1"
+			(uuid "958395bb-9646-4cf4-8627-2149909c2456")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 101.6 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d24d3faa-0b26-4716-9e0b-a262979cf0d2")
+		(property "Reference" "D12"
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5abf0e30-de7b-4b32-b96f-96a586b8eaf2")
+		)
+		(pin "1"
+			(uuid "7af74a0f-ea30-491e-94cb-4ff7c0c13215")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 191.77 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d73bc708-84ee-4125-9289-882f4cc4f74c")
+		(property "Reference" "D25"
+			(at 191.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 191.77 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8112f6de-2ce3-479c-b8c8-b467786fa06c")
+		)
+		(pin "2"
+			(uuid "607958f9-9ff0-4a86-a172-f2b87b500f73")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 201.93 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da13776c-29c5-4f0b-b0a8-1660f5256d30")
+		(property "Reference" "SW25"
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 201.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 201.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 201.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 201.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 201.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90e1341c-df72-457e-b0df-77b9a3547b0c")
+		)
+		(pin "1"
+			(uuid "bba2d29e-6628-4c10-813f-eb9e30164950")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 168.91 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df2b9b50-ca28-49d9-9b6f-794afb223a44")
+		(property "Reference" "D22"
+			(at 168.91 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 168.91 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ded9ff7-f5b1-40b0-b57f-531337750600")
+		)
+		(pin "2"
+			(uuid "c15b5908-08af-48e0-9eee-a3795dfef127")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 168.91 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e284755f-23fb-42a7-81e9-d0a371dbaf23")
+		(property "Reference" "D21"
+			(at 168.91 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 168.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 168.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 168.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 168.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 168.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "297fb329-dcbd-4de6-8762-f2a9e326a4b9")
+		)
+		(pin "1"
+			(uuid "06db6ddc-5d3b-49dc-b60a-b1c3bc375bf0")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 78.74 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3886312-70ac-470b-a140-335ceede6c7d")
+		(property "Reference" "D10"
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c55c6eb-dedb-453d-99e2-1b21d0f5d8b3")
+		)
+		(pin "2"
+			(uuid "15c4b355-d286-4e12-99be-1446416f7a7b")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 124.46 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7aafe7b-37c0-4bb2-becc-6f613181c451")
+		(property "Reference" "D17"
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fa15fe7-665d-4ef1-8d3f-b80001bb2262")
+		)
+		(pin "2"
+			(uuid "6f9a12fe-8e24-402a-be7b-8eca783f68ad")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 201.93 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e855efd4-0308-4f3b-9b20-e1c86ce0ee8f")
+		(property "Reference" "SW23"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 201.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 201.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "534de088-53ac-408e-9499-d330f6a620ef")
+		)
+		(pin "2"
+			(uuid "f324517d-8b12-4a77-9aa1-47950415de31")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 33.02 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed0ad6fb-da8a-4943-ad1d-4e83c93786d0")
+		(property "Reference" "D1"
+			(at 33.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 33.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 33.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 33.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 33.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 33.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 33.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20259024-e777-49a1-8706-2266187b578d")
+		)
+		(pin "2"
+			(uuid "cc5956a7-d4db-4dee-b590-3687e74c2c13")
+		)
+		(instances
+			(project ""
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 247.65 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed7e0d8d-b1e6-4659-8998-9b5a403b9097")
+		(property "Reference" "SW32"
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40eea396-a632-4fb9-91d7-92f8449ab2cf")
+		)
+		(pin "1"
+			(uuid "f7484446-8eae-4b55-9387-f9c141400261")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f08db1e1-1e12-4169-846e-e120175ebff8")
+		(property "Reference" "SW10"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG1316S"
+			(at 88.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:CPG1316S01D02_mikeholscher_w_ref"
+			(at 88.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.holykeebs.com/datasheets/CPG1316S01D02.pdf"
+			(at 88.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42372112"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3c73d2c-3488-443d-ac4a-94916162b4e1")
+		)
+		(pin "1"
+			(uuid "3f393da4-46f8-4d29-b779-ba1ae100c675")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 124.46 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0c02267-2406-4d9a-86f5-393b5ba6f914")
+		(property "Reference" "D15"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97aa54bb-90a9-44b3-b82f-b20beedff1fe")
+		)
+		(pin "1"
+			(uuid "01767955-58b2-4491-b30d-4e6d6f6d5765")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 214.63 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f988134e-399c-401b-85aa-da38fdd21309")
+		(property "Reference" "D27"
+			(at 214.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 214.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 214.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 214.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 214.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 214.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02e4397d-66d9-4963-906f-3ba0606b5323")
+		)
+		(pin "1"
+			(uuid "1476f352-6b44-4666-90c2-72b03264fdc3")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard_stuff:RP2040-Zero")
+		(at 153.67 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faad73a8-15b8-44b6-8cca-efc61c828157")
+		(property "Reference" "RZ1"
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RP2040-Zero"
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard_stuff:RP2040_Zero_cutout"
+			(at 153.416 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4645b220-b9ad-4ab6-ae27-b7af59efba82")
+		)
+		(pin "1"
+			(uuid "c261a133-7a6f-4396-9a2d-778d59990a2f")
+		)
+		(pin "10"
+			(uuid "c7809085-0db2-4f36-9900-451d520c6ca0")
+		)
+		(pin "3"
+			(uuid "f96bb720-651a-4ad1-b4f1-0546e46a545e")
+		)
+		(pin "9"
+			(uuid "9b716bfc-58d8-4cb9-8b22-5fe4fe02eb11")
+		)
+		(pin "14"
+			(uuid "a34a3460-74d2-4b63-8af2-76d8f1e27bbc")
+		)
+		(pin "5"
+			(uuid "2066a449-c8ad-43ed-ac2b-ad48adcd3a1b")
+		)
+		(pin "26"
+			(uuid "e87001fb-6c7c-4e9b-9e8c-5ad231567f55")
+		)
+		(pin "0"
+			(uuid "1cb0f63e-0023-410a-b6a7-5bd557c50d05")
+		)
+		(pin "11"
+			(uuid "360d4a62-1844-4289-abd7-c7aae43563e3")
+		)
+		(pin "28"
+			(uuid "9aaf2e7b-ef5f-4086-9d4d-9169a8e75b9d")
+		)
+		(pin "13"
+			(uuid "046e46fe-cb06-4dc8-bae5-fca3062cdbfd")
+		)
+		(pin "15"
+			(uuid "72ddd3fb-155a-4a14-b640-6eef18b8f9f5")
+		)
+		(pin "27"
+			(uuid "a26a4f9f-b8d8-47b4-abda-611393eeb7b7")
+		)
+		(pin "29"
+			(uuid "2ed5fa00-269d-465a-87d4-e9605649a5ee")
+		)
+		(pin "4"
+			(uuid "e884e22c-3e0f-459d-aeca-a32d22b84ded")
+		)
+		(pin "5V"
+			(uuid "085ab018-a502-4006-825a-3698dce85e2f")
+		)
+		(pin "2"
+			(uuid "1d656947-d92f-4741-9b05-c134b236d5b9")
+		)
+		(pin "8"
+			(uuid "99f452ee-39d3-4172-b4bc-497a8c9a661e")
+		)
+		(pin "12"
+			(uuid "b8388b60-7cda-4cec-924b-566148f8c199")
+		)
+		(pin "3.3V"
+			(uuid "1947741a-53cf-46d3-826d-474ec0fca2fd")
+		)
+		(pin "GND"
+			(uuid "4b37a05b-54d9-49ec-82fa-6fa0fa333d4a")
+		)
+		(pin "7"
+			(uuid "e2a8e656-20c8-4c9f-bc20-15e93db48b7a")
+		)
+		(instances
+			(project ""
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "RZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 55.88 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbc56f39-adbd-4071-b057-50928769d42e")
+		(property "Reference" "D5"
+			(at 55.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 55.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 55.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 55.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 55.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 55.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 55.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f2aa937-e4b9-4f63-8b4f-a173f1bac1fc")
+		)
+		(pin "2"
+			(uuid "f1826069-be89-46bb-90da-2cef37c87071")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 214.63 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe3bebc3-eafd-4fc2-a059-a5bb5bce7060")
+		(property "Reference" "D28"
+			(at 214.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4148W"
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2099"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d907b4ea-510c-4163-ba38-97954d922966")
+		)
+		(pin "2"
+			(uuid "7ec88265-c4e0-46ac-9128-b68bbac4e0c9")
+		)
+		(instances
+			(project "frustratedfly"
+				(path "/3621421e-2aca-44f8-ab0c-86a7ca5baf43"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
