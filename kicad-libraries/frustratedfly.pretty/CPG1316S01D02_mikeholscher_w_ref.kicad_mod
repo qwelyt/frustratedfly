@@ -56,6 +56,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -8.5 -8.5)
+		(end 8.5 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "6d4afce2-f9e5-4faf-a8c2-060824f80b3b")
+	)
 	(fp_poly
 		(pts
 			(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.9) (xy 2.2 -3.5)
